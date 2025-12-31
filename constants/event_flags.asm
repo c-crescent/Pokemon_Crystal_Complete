@@ -379,7 +379,7 @@
 	const EVENT_DECO_SQUIRTLE_DOLL
 	const EVENT_DECO_POLIWAG_DOLL
 	const EVENT_DECO_DIGLETT_DOLL
-	const EVENT_DECO_STARMIE_DOLL
+	const EVENT_DECO_STARYU_DOLL
 	const EVENT_DECO_MAGIKARP_DOLL
 	const EVENT_DECO_ODDISH_DOLL
 	const EVENT_DECO_GENGAR_DOLL
@@ -509,7 +509,7 @@
 	const EVENT_MET_BUENA
 	const EVENT_GOT_ODD_EGG
 	const_skip ; unused
-	const EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	const EVENT_GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER
 ; Unused: next 167 events
 
 	const_next 1000
@@ -1351,6 +1351,9 @@
 	const EVENT_FLORIA_AT_SUDOWOODO
 	const EVENT_GOLDENROD_CITY_MOVE_TUTOR
 	const EVENT_GOLDENROD_GAME_CORNER_MOVE_TUTOR
+; Unused: next 0 events
+; (In pokegold the previous 4 event flags were not defined,
+; but in pokecrystal the 'const_next 1900' is redundant.)
 
 	const_next 1900
 ; Kanto people
@@ -1455,7 +1458,7 @@
 	const EVENT_MOUNT_MORTAR_B1F_PP_UP
 	const EVENT_RADIO_TOWER_5F_ULTRA_BALL
 	const EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
-	const EVENT_BATTLE_TOWER_OUTSIDE_SAILOR
+	const EVENT_BATTLE_TOWER_OPEN_CIVILIANS
 ; Unused: next 48 events
 	const EVENT_CERULEAN_CAVE_B1F_MEWTWO
 	const EVENT_DEFEATED_RED
@@ -1474,4 +1477,4 @@
 	const EVENT_ROUTE_24_MEW_CAUGHT
 
 	const_next 2048
-NUM_EVENTS EQU const_value ; 800
+DEF NUM_EVENTS EQU const_value ; 800
