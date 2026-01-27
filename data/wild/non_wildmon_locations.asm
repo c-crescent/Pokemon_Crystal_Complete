@@ -45,7 +45,7 @@ NPCTradeMons_Locations::
 EventWildMons::
 ; BROKEN: ; replace map_id with -1 to hide location but keep hint
 ; specialencounter 	 SPECIES,   EVENT_FLAG,                         map_id, blurb string ptr
-	specialencounter LAPRAS, 	-1, 								UNION_CAVE_B2F, FridayLapras_Str ; reoccurs every Friday
+	specialencounter LAPRAS, 	-1, 								UNION_CAVE_B2F, Lapras_Str
 	specialencounter ELECTRODE, -1, 								TEAM_ROCKET_BASE_B2F, Trap_Electrode_Str
 	specialencounter SUDOWOODO, EVENT_FOUGHT_SUDOWOODO, 			ROUTE_36, SudowoodoEvent_Str
 	specialencounter GYARADOS, 	EVENT_LAKE_OF_RAGE_RED_GYARADOS, 	LAKE_OF_RAGE, ShinyGyarados_Str
@@ -62,9 +62,9 @@ EventWildMons::
 	db -1
 
 ; LoadWildMon Dex Hints, max 18 chars per line
-FridayLapras_Str:
+Lapras_Str:
 	db 	 "Appears every"
-	next "FRIDAY, lonely in"
+	next "day, lonely in"
 	next "hidden sea cave.@"
 Trap_Electrode_Str:
 	db 	 "CAUTION:"
