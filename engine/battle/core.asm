@@ -129,6 +129,8 @@ WildFled_EnemyFled_LinkBattleCanceled:
 	ld a, [wBattleResult]
 	and BATTLERESULT_BITMASK
 	ld [wBattleResult], a ; WIN
+	; fallthrough
+ApplyExperienceAfterEnemyCaught:	
 	ld hl, BattleText_EnemyFled
 	call CheckMobileBattleError
 	jr nc, .print_text
