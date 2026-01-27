@@ -206,7 +206,11 @@ MartEcruteak:
 	db -1 ; end
 
 MartMahogany1:
-	db 6 ; # items
+	db 10 ; # items
+	db METAL_COAT
+	db UP_GRADE
+	db BRICK_PIECE
+	db KINGS_ROCK
 	db TM_FRUSTRATION
 	db TM_ROAR
 	db TINYMUSHROOM
@@ -216,11 +220,12 @@ MartMahogany1:
 	db -1 ; end
 
 MartMahogany2:
-	db 12 ; # items
+	db 13 ; # items
 	db RAGECANDYBAR
 	db METAL_COAT
 	db UP_GRADE
 	db BRICK_PIECE
+	db KINGS_ROCK
 	db TM_DIG
 	db TM_ROLLOUT
 	db TM_SWIFT
@@ -455,11 +460,12 @@ MartIndigoPlateau:
 	db -1 ; end
 
 MartUnderground:
-	db 4 ; # items
+	db 5 ; # items
 	db ENERGYPOWDER
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db LEFTOVERS
 	db -1 ; end
 
 MartBerrys:
