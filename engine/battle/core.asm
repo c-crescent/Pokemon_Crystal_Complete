@@ -6259,7 +6259,7 @@ LoadEnemyMon:
 ; Set happiness
 	ld a, [wBattleMode]
 	dec a
-	ld a, BASE_HAPPINESS
+	ld a, MAX_HAPPINESS
 	jr z, .load_happiness
 
 	ld a, [wCurPartyMon]
