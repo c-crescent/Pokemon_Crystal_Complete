@@ -50,6 +50,13 @@ PlayersHousePosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
+; DEBUG
+	opentext
+	giveitem MAX_REPEL, 99
+	giveitem MASTER_BALL, 99
+	giveitem RARE_CANDY, 99
+	closetext
+; END DEBUG
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO

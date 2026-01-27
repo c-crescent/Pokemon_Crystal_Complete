@@ -1564,13 +1564,13 @@ _OakText1::
 	text "Hello! Sorry to"
 	line "keep you waiting!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	; para "Welcome to the"
+	; line "world of #MON!"
 
-	para "My name is OAK."
+	; para "My name is OAK."
 
-	para "People call me the"
-	line "#MON PROF."
+	; para "People call me the"
+	; line "#MON PROF."
 	prompt
 
 _OakText2::

@@ -58,23 +58,23 @@ ElmsLabWalkUpToElmScript:
 	sjump .MustSayYes
 
 .ElmGetsEmail:
-	writetext ElmText_Accepted
-	promptbutton
-	writetext ElmText_ResearchAmbitions
-	waitbutton
-	closetext
-	playsound SFX_GLASS_TING
-	pause 30
-	showemote EMOTE_SHOCK, ELMSLAB_ELM, 10
-	turnobject ELMSLAB_ELM, DOWN
-	opentext
-	writetext ElmText_GotAnEmail
-	waitbutton
-	closetext
-	opentext
-	turnobject ELMSLAB_ELM, RIGHT
-	writetext ElmText_MissionFromMrPokemon
-	waitbutton
+	; writetext ElmText_Accepted
+	; promptbutton
+	; writetext ElmText_ResearchAmbitions
+	; waitbutton
+	; closetext
+	; playsound SFX_GLASS_TING
+	; pause 30
+	; showemote EMOTE_SHOCK, ELMSLAB_ELM, 10
+	; turnobject ELMSLAB_ELM, DOWN
+	; opentext
+	; writetext ElmText_GotAnEmail
+	; waitbutton
+	; closetext
+	; opentext
+	; turnobject ELMSLAB_ELM, RIGHT
+	; writetext ElmText_MissionFromMrPokemon
+	; waitbutton
 	closetext
 	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement1
 	turnobject PLAYER, UP
@@ -250,10 +250,10 @@ DidntChooseStarterScript:
 
 ElmDirectionsScript:
 	turnobject PLAYER, UP
-	opentext
-	writetext ElmDirectionsText1
-	waitbutton
-	closetext
+	; opentext
+	; writetext ElmDirectionsText1
+	; waitbutton
+	; closetext
 	addcellnum PHONE_ELM
 	opentext
 	writetext GotElmsNumberText
@@ -983,39 +983,39 @@ ElmAfterTheftText4:
 ElmAfterTheftText5:
 	text "ELM: What?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	; para "PROF.OAK gave you"
+	; line "a #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	; para "<PLAY_G>, is that"
+	; line "true? Th-that's"
+	; cont "incredible!"
 
-	para "The #DEX shows"
-	line "how #MON evolve"
-	cont "and learn moves."
+	; para "The #DEX shows"
+	; line "how #MON evolve"
+	; cont "and learn moves."
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	; para "He is superb at"
+	; line "seeing the poten-"
+	; cont "tial of people as"
+	; cont "trainers."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	; para "Wow, <PLAY_G>. You"
+	; line "may have what it"
 
-	para "takes to become"
-	line "the CHAMPION."
+	; para "takes to become"
+	; line "the CHAMPION."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	; para "You seem to be"
+	; line "getting on great"
+	; cont "with #MON too."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	; para "You should take"
+	; line "the #MON GYM"
+	; cont "challenge."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	; para "The closest GYM"
+	; line "would be the one"
+	; cont "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:

@@ -7,22 +7,22 @@ _OakText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	; para "Your very own"
+	; line "#MON story is"
+	; cont "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	; para "You'll face fun"
+	; line "times and tough"
+	; cont "challenges."
 
-	para "A world of dreams"
-	line "and adventures"
+	; para "A world of dreams"
+	; line "and adventures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	; para "with #MON"
+	; line "awaits! Let's go!"
 
-	para "I'll be seeing you"
-	line "later!"
+	; para "I'll be seeing you"
+	; line "later!"
 	done
 
 _ClockTimeMayBeWrongText::
