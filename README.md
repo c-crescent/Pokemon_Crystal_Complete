@@ -11,7 +11,7 @@ We would also like to credit & thank Katt, Chamber, Soloo993, Blue Emerald, Lake
 
 ## Download and Play
 
-* ### **You should use RGBDS version 0.5.2.**
+* ### **You should use RGBDS version 1.0.0.**
 * To set up the repository, see [INSTALL.md](INSTALL.md).
 
 
