@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw PocketPCEffect      ; POCKET_PC
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -2314,6 +2314,9 @@ ItemfinderEffect:
 	farcall ItemFinder
 	ret
 
+PocketPCEffect:
+	farcall PocketPCFunction
+	ret
 RestorePPEffect:
 	ld a, [wCurItem]
 	ld [wTempRestorePPItem], a
