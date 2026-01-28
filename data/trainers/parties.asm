@@ -344,31 +344,25 @@ WillGroup:
 	db -1 ; end
 	
 	; WILL (2) Rematch
-	db "WILL@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
-		db 66, STANTLER
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
-			db SCOPE_LENS
-            db DOUBLE_EDGE, EARTHQUAKE, HIDDEN_POWER, REFLECT
+	db "WILL@", TRAINERTYPE_ITEM_MOVES
+		db 66, GIRAFARIG
+			db LEFTOVERS
+            db PSYCHIC_M, EARTHQUAKE, RETURN, CURSE
         db 67, SLOWKING
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db LEFTOVERS
             db FLAMETHROWER, SURF, REST, SLEEP_TALK
         db 67, EXEGGUTOR
-			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
 			db MIRACLEBERRY
-            db ANCIENTPOWER, SLEEP_POWDER, DREAM_EATER, SOFTBOILED
-        db 67, NINETALES
-			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
-			db CHARCOAL
-            db FIRE_BLAST, SHADOW_BALL, CONFUSE_RAY, IRON_TAIL
+            db PSYCHIC_M, SLEEP_POWDER, GIGA_DRAIN, EXPLOSION
+        db 67, ESPEON
+			db LEFTOVERS
+            db PSYCHIC_M, SHADOW_BALL, GROWTH, MORNING_SUN
         db 66, SLOWBRO
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
 			db QUICK_CLAW
             db FLAMETHROWER, CURSE, EARTHQUAKE, ROCK_SMASH
         db 68, XATU
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
-			db LEFTOVERS
-            db FUTURE_SIGHT, FLY, CONFUSE_RAY, PROTECT
+			db TWISTEDSPOON
+            db FUTURE_SIGHT, DRILL_PECK, PSYCHIC_M, NIGHT_SHADE
 	db -1 ; end
 
 PKMNTrainerGroup:
