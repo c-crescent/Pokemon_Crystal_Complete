@@ -106,7 +106,7 @@ CreditsStringsPointers:
 	dw .PaadTesting
 	dw .CreatedBy
 	dw .SmithPlaysPokemons
-	dw .V
+	dw .VIVIANDK
 	dw .Dev
 	dw .TheSmithPlays
 	dw .cRzShadows
@@ -269,7 +269,7 @@ CreditsStringsPointers:
 .PaadTesting:         db "    PAAD TESTING@"
 .CreatedBy:		 	  db "    CREATED BY@"
 .SmithPlaysPokemons:  db " SMITHPLAYSPOKEMON@"
-.V: 				  db "      VIVIANDK@"
+.VIVIANDK: 				  db "      VIVIANDK@"
 .Dev:				  db "     DEVELOPER@"
 .TheSmithPlays: 	  db "  THE SMITH PLAYS@"
 .cRzShadows: 		  db "    CRZ SHADOWS@"

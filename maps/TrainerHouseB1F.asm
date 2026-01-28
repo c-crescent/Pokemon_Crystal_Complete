@@ -14,8 +14,6 @@ TrainerHouseB1FNoopScene:
 TrainerHouseReceptionistScript:
 	turnobject PLAYER, UP
 .GetDayForSprite: ; make sure overworld sprite is correct for trainer
-	.V_Sprite
-.V_Sprite
 	variablesprite SPRITE_TRAINER_HOUSE_PKMN_TRAINER, SPRITE_KRIS
 	sjump .GotSprite
 
@@ -65,8 +63,6 @@ TrainerHouseReceptionistScript:
 	iffalse .End
 .NoSpecialBattle:
 	opentext
-	.VBeforeText
-.VBeforeText
 	writetext TrainerHouseB1FVBeforeText
 	waitbutton
 	closetext

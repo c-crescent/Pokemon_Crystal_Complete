@@ -682,24 +682,24 @@ JohtoGrassWildMons:
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUILL
-	db 22, CYNDAQUILL
+	db 22, CYNDAQUIL
+	db 22, CYNDAQUIL
 	; day
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUILL
-	db 22, CYNDAQUILL
+	db 22, CYNDAQUIL
+	db 22, CYNDAQUIL
 	; nite
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MARILL
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUILL
-	db 22, CYNDAQUILL
+	db 22, CYNDAQUIL
+	db 22, CYNDAQUIL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F

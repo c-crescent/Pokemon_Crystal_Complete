@@ -19,7 +19,7 @@ CreditsScript:
 	db CREDITS_SCENE, 2 ; Ditto
 
 	db             CREATEDBY, 1
-	db       				V, 2
+	db       		VIVIANDK, 2
 
 	db CREDITS_WAIT, 12
 
