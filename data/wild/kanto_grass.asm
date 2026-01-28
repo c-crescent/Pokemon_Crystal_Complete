@@ -765,7 +765,7 @@ KantoGrassWildMons:
 	db 38, ARBOK
 	db 39, PONYTA
 	db 42, RAPIDASH
-	db 42,  DODRIO
+	db 42, DODRIO
 	db 42, DODRIO
 	db 5,  BULBASAUR
 	; day
@@ -773,7 +773,7 @@ KantoGrassWildMons:
 	db 38, ARBOK
 	db 39, PONYTA
 	db 42, RAPIDASH
-	db 42,  DODRIO
+	db 42, DODRIO
 	db 42, DODRIO
 	db 5,  CHARMANDER
 	; nite
@@ -793,7 +793,7 @@ KantoGrassWildMons:
 	db 38, ARBOK
 	db 39, PONYTA
 	db 42, RAPIDASH
-	db  5, CHIKORITA
+	db  5, BULBASAUR
 	db 42, DODRIO
 	db 42, DODRIO
 	; day
@@ -801,7 +801,7 @@ KantoGrassWildMons:
 	db 38, ARBOK
 	db 39, PONYTA
 	db 42, RAPIDASH
-	db  5, CYNDAQUIL
+	db  5, CHARMANDER
 	db 42, DODRIO
 	db 42, DODRIO
 	; nite
@@ -809,7 +809,7 @@ KantoGrassWildMons:
 	db 38, ARBOK
 	db 39, PONYTA
 	db 42, RAPIDASH
-	db  5, TOTODILE
+	db  5, SQUIRTLE
 	db 42, DODRIO
 	db 42, DODRIO
 	end_grass_wildmons

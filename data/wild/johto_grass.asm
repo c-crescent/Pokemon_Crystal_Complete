@@ -682,24 +682,24 @@ JohtoGrassWildMons:
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CUBONE
-	db 22, CUBONE
+	db 22, CYNDAQUILL
+	db 22, CYNDAQUILL
 	; day
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CUBONE
-	db 22, CUBONE
+	db 22, CYNDAQUILL
+	db 22, CYNDAQUILL
 	; nite
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MARILL
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CUBONE
-	db 22, CUBONE
+	db 22, CYNDAQUILL
+	db 22, CYNDAQUILL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
@@ -1551,7 +1551,7 @@ JohtoGrassWildMons:
 	db 21, RATICATE
 	db 22, ARBOK
 	db 21, FEAROW
-	db 21, FEAROW
+	db 21, SKARMORY
 	; day
 	db 20, EKANS
 	db 20, FEAROW
@@ -1559,7 +1559,7 @@ JohtoGrassWildMons:
 	db 21, RATICATE
 	db 22, ARBOK
 	db 21, FEAROW
-	db 21, FEAROW
+	db 21, SKARMORY
 	; nite
 	db 22, RATICATE
 	db 20, ZUBAT
@@ -1567,7 +1567,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 20, MARILL
 	db 22, GOLBAT
-	db 22, GOLBAT
+	db 22, SKARMORY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
@@ -1634,24 +1634,24 @@ JohtoGrassWildMons:
 	db 31, GLIGAR
 	db 35, DONPHAN
 	db 35, URSARING
-	db 37, SKARMORY
-	db 37, SKARMORY
+	db 37, CHIKORITA
+	db 37, CHIKORITA
 	; day
 	db 35, DONPHAN
 	db 34, GRAVELER
 	db 31, GLIGAR
 	db 35, DONPHAN
 	db 35, URSARING
-	db 35, SKARMORY
-	db 35, SKARMORY
+	db 35, CHIKORITA
+	db 35, CHIKORITA
 	; nite
 	db 35, GRAVELER
 	db 34, GRAVELER
 	db 31, GLIGAR
 	db 35, MURKROW
 	db 35, GOLBAT
-	db 35, SKARMORY
-	db 35, SKARMORY
+	db 35, CHIKORITA
+	db 35, CHIKORITA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46
