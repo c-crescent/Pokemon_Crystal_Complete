@@ -571,6 +571,7 @@ JigglypuffEvosAttacks:
 	db 29, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
+	db 42, MOONLIGHT
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
@@ -586,6 +587,7 @@ WigglytuffEvosAttacks:
 	db 29, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
+	db 42, MOONLIGHT
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
