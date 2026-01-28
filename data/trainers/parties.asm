@@ -3819,10 +3819,10 @@ RedGroup:
 			db $fd, $de
 			db QUICK_CLAW
 			db ICE_BEAM, HYDRO_PUMP, BODY_SLAM, EARTHQUAKE
-		db 80, ESPEON
+		db 80, ALAKAZAM
 			db $ec, $df
 			db MIRACLEBERRY
-			db PSYCHIC_M, SHADOW_BALL, HIDDEN_POWER, MORNING_SUN
+			db PSYCHIC_M, SHADOW_BALL, FIRE_PUNCH, RECOVER
 	db -1 ; end
 
 BlueGroup:
