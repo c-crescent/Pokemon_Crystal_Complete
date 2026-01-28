@@ -2340,6 +2340,7 @@ CyndaquilEvosAttacks:
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
 	db 38, FLAMETHROWER
+	db 42, SHADOW_BALL
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -2355,6 +2356,7 @@ QuilavaEvosAttacks:
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
 	db 38, FLAMETHROWER
+	db 42, SHADOW_BALL
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -2369,6 +2371,7 @@ TyphlosionEvosAttacks:
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
 	db 38, FLAMETHROWER
+	db 42, SHADOW_BALL
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
