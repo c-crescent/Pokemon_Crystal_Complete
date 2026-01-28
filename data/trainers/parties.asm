@@ -3866,35 +3866,29 @@ RedGroup:
 	db -1 ; end
 
 	; RED (2) Rematch
-	db "RED@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db "RED@", TRAINERTYPE_DVS | TRAINERTYPE_ITEM_MOVES
 		db 93, PIKACHU
 			db $fd, $de
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db LIGHT_BALL
 			db THUNDERBOLT, SURF, IRON_TAIL, DOUBLE_TEAM
 		db 75, SNORLAX
 			db $fd, $de
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db LEFTOVERS
 			db AMNESIA, CURSE, BODY_SLAM, EARTHQUAKE
 		db 77, CHARIZARD
 			db $fd, $de
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db CHARCOAL
 			db FIRE_BLAST, WING_ATTACK, OUTRAGE, STEEL_WING
 		db 77, VENUSAUR
 			db $fd, $de
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db MIRACLE_SEED
 			db GIGA_DRAIN, BODY_SLAM, SLEEP_POWDER, LEECH_SEED
 		db 77, BLASTOISE
 			db $fd, $de
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db QUICK_CLAW
 			db ICE_BEAM, HYDRO_PUMP, BODY_SLAM, EARTHQUAKE
 		db 80, ESPEON
 			db $ec, $df
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db MIRACLEBERRY
 			db PSYCHIC_M, SHADOW_BALL, HIDDEN_POWER, MORNING_SUN
 	db -1 ; end
