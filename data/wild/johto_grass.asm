@@ -1561,7 +1561,7 @@ JohtoGrassWildMons:
 	db 21, FEAROW
 	db 21, SKARMORY
 	; nite
-	db 22, RATICATE
+	db 22, GIRAFARIG
 	db 20, ZUBAT
 	db 21, GLIGAR
 	db 22, GOLBAT
