@@ -529,31 +529,25 @@ KogaGroup:
 	db -1 ; end
 	
 	; KOGA (2) Rematch
-	db "KOGA@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
-		db 67, TENTACRUEL
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
-			db MINT_BERRY
-            db WATERFALL, BLIZZARD, GIGA_DRAIN, REST
+	db "KOGA@", TRAINERTYPE_ITEM_MOVES
+		db 67, ARIADOS
+			db MIRACLEBERRY
+            db SPIDER_WEB, AGILITY, BATON_PASS, SLUDGE_BOMB
         db 67, MUK
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
 			db LEFTOVERS
-            db MINIMIZE, FIRE_BLAST, SLUDGE_BOMB, TOXIC
+            db EXPLOSION, FIRE_BLAST, SLUDGE_BOMB, CURSE
         db 67, GLIGAR
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
-			db SCOPE_LENS
-            db IRON_TAIL, SLUDGE_BOMB, EARTHQUAKE, FAINT_ATTACK
-        db 67, NIDOKING
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db NO_ITEM
+            db THIEF, WING_ATTACK, EARTHQUAKE, FAINT_ATTACK
+        db 67, QWILFISH
 			db QUICK_CLAW
-            db LOVELY_KISS, FIRE_BLAST, SURF, EARTHQUAKE
-        db 67, HYPNO
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
-			db BRIGHTPOWDER
-            db FIRE_PUNCH, THUNDER_WAVE, PSYCHIC_M, SHADOW_BALL
-        db 68, CROBAT
-			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+            db HAZE, SLUDGE_BOMB, HYDRO_PUMP, EXPLOSION
+        db 67, VENOMOTH
 			db LEFTOVERS
-            db PROTECT, FLY, TOXIC, CONFUSE_RAY
+            db SLEEP_POWDER, PSYCHIC_M, PSYCHIC_M, GIGA_DRAIN
+        db 68, CROBAT
+			db LEFTOVERS
+            db REST, FLY, TOXIC, CONFUSE_RAY
 	db -1 ; end
 
 ChampionGroup:
