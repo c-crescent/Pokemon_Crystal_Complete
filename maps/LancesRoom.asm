@@ -331,28 +331,6 @@ LanceBattleIntroText:
 
 	para "would eventually"
 	line "reach me here."
-	
-	para "Three years ago"
-	line "a trainer"
-	
-	para "just like you"
-	line "stood before me."
-	
-	para "That trainer would"
-	line "go on to become"
-	
-	para "the strongest in"
-	line "both our regions."
-	
-	para "He has entrusted"
-	line "me to uphold the"
-	cont "LEAGUE, and to"
-	
-	para "take care of"
-	line "the legendary"
-	
-	para "lightning bird,"
-	line "ZAPDOS."
 
 	para "There's no need"
 	line "for any more"
