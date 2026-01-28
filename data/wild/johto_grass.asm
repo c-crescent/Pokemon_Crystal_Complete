@@ -363,7 +363,7 @@ JohtoGrassWildMons:
 	db 15, HOOTHOOT
 	db 14, VENONAT
 	db 16, SCYTHER
-	db 16, SCYTHER
+	db 16, SUDOWOODO
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -1159,7 +1159,7 @@ JohtoGrassWildMons:
 	db 66, PARASECT
 	db 68, PARASECT
 	db 60, PARASECT
-	db 62, PARASECT
+	db 62, AERODACTYL
 	; day
 	db 68, GOLBAT
 	db 66, GOLBAT
@@ -1167,7 +1167,7 @@ JohtoGrassWildMons:
 	db 66, PARASECT
 	db 68, PARASECT
 	db 60, PARASECT
-	db 62, PARASECT
+	db 62, AERODACTYL
 	; nite
 	db 65, MISDREAVUS
 	db 68, GOLBAT
@@ -1175,7 +1175,7 @@ JohtoGrassWildMons:
 	db 66, PARASECT
 	db 68, PARASECT
 	db 60, PARASECT
-	db 62, PARASECT
+	db 62, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE

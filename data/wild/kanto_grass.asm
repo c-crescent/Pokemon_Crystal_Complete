@@ -27,7 +27,7 @@ KantoGrassWildMons:
 	db 32, DIGLETT
 	db 32, DUGTRIO
 	db 32, DUGTRIO
-	db 32, DUGTRIO
+	db 32, SNORLAX
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON

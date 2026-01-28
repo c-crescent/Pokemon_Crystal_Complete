@@ -6,7 +6,7 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 20, GOLDEEN
 	db 20, SLOWPOKE
-	db 20, SEAKING
+	db 20, LAPRAS
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_PORT
