@@ -319,23 +319,23 @@ JohtoGrassWildMons:
 	db 16, MISDREAVUS
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 18, MAGMAR
+	db 8, MAGBY
 	; day
 	db 18, ZUBAT
 	db 17, KOFFING
 	db 16, KOFFING
 	db 16, MAGMAR
-	db 16, KOFFING
+	db 16, MISDREAVUS
 	db 18, MISDREAVUS
-	db 17, MISDREAVUS
+	db 7, MAGBY
 	; nite
 	db 18, MISDREAVUS
 	db 17, ZUBAT
-	db 16, KOFFING
+	db 16, MISDREAVUS
 	db 16, KOFFING
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 18, MAGMAR
+	db 8, MAGBY
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
@@ -655,7 +655,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, TYROGUE
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
@@ -663,7 +663,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, TYROGUE
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
@@ -671,7 +671,7 @@ JohtoGrassWildMons:
 	db 30, GOLBAT
 	db 28, MARILL
 	db 32, GOLBAT
-	db 32, GOLBAT
+	db 32, TYROGUE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_B1F
@@ -711,7 +711,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 24, GOLBAT
 	db 22, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	; day
 	db 21, SWINUB
 	db 22, ZUBAT
@@ -719,7 +719,7 @@ JohtoGrassWildMons:
 	db 23, SWINUB
 	db 24, GOLBAT
 	db 22, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	; nite
 	db 21, DELIBIRD
 	db 22, ZUBAT
@@ -727,7 +727,7 @@ JohtoGrassWildMons:
 	db 23, DELIBIRD
 	db 24, GOLBAT
 	db 22, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B1F
@@ -1215,7 +1215,7 @@ JohtoGrassWildMons:
 	db 35, URSARING
 	db 30, TEDDIURSA
 	db 33, GOLBAT
-	db 33, GOLBAT
+	db 33, PUPITAR
 	; day
 	db 33, GEODUDE
 	db 33, ZUBAT
@@ -1223,7 +1223,7 @@ JohtoGrassWildMons:
 	db 35, URSARING
 	db 30, URSARING
 	db 33, GOLBAT
-	db 33, GOLBAT
+	db 33, PUPITAR
 	; nite
 	db 33, GEODUDE
 	db 33, ZUBAT
@@ -1231,7 +1231,7 @@ JohtoGrassWildMons:
 	db 30, WOBBUFFET
 	db 35, WOBBUFFET
 	db 33, GOLBAT
-	db 33, GOLBAT
+	db 33, PUPITAR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
@@ -1355,7 +1355,7 @@ JohtoGrassWildMons:
 	db 9, MACHOP
 	db 8, EKANS
 	db 8, MACHOP
-	db 8, MACHOP
+	db 8, TOGEPI
 	; day
 	db 9, EKANS
 	db 9, MACHOP
@@ -1363,7 +1363,7 @@ JohtoGrassWildMons:
 	db 9, MACHOP
 	db 8, EKANS
 	db 8, MACHOP
-	db 8, MACHOP
+	db 8, TOGEPI
 	; nite
 	db 9, ZUBAT
 	db 9, EKANS
@@ -1371,7 +1371,7 @@ JohtoGrassWildMons:
 	db 9, MACHOP
 	db 8, MACHOP
 	db 8, ZUBAT
-	db 8, ZUBAT
+	db 8, TOGEPI
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
@@ -1439,7 +1439,7 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, RATTATA
 	db 6, PIDGEY
-	db 6, PIDGEY
+	db 6, CHANSEY
 	; day
 	db 4, RATTATA
 	db 4, BELLSPROUT
@@ -1447,7 +1447,7 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, RATTATA
 	db 6, PIDGEY
-	db 6, PIDGEY
+	db 6, CHANSEY
 	; nite
 	db 4, RATTATA
 	db 4, GASTLY
@@ -1455,7 +1455,7 @@ JohtoGrassWildMons:
 	db 5, HOUNDOUR
 	db 5, RATTATA
 	db 5, GASTLY
-	db 5, GASTLY
+	db 5, CHANSEY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
@@ -1467,9 +1467,9 @@ JohtoGrassWildMons:
 	db 18, PIDGEOTTO
 	db 18, VULPIX
 	db 18, LEDIAN
-	db 18, LEDIAN
+	db 18, STANTLER
 	; day
-	db 16, PIDGEY
+	db 16, STANTLER
 	db 16, GROWLITHE
 	db 18, PIDGEY
 	db 16, PIDGEOTTO
@@ -1603,7 +1603,7 @@ JohtoGrassWildMons:
 	; morn
 	db 33, TANGELA
 	db 32, LICKITUNG
-	db 32, WEEPINBELL
+	db 32, PHANPY
 	db 34, PIDGEOTTO
 	db 33, WEEPINBELL
 	db 36, ELECTABUZZ
@@ -1611,7 +1611,7 @@ JohtoGrassWildMons:
 	; day
 	db 33, TANGELA
 	db 32, LICKITUNG
-	db 32, WEEPINBELL
+	db 32, PHANPY
 	db 34, PIDGEOTTO
 	db 33, WEEPINBELL
 	db 36, ELECTABUZZ

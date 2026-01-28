@@ -186,14 +186,14 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
+	db 20, REMORAID
 	db 15, MAGIKARP
-	db 10, MAGIKARP
+	db 10, MANTINE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
-	db 25, POLIWAG
+	db 25, MANTINE
 	db 24, POLIWAG
 	db 28, POLIWHIRL
 	end_water_wildmons
@@ -258,7 +258,7 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
-	db 5, MAGIKARP
+	db 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE

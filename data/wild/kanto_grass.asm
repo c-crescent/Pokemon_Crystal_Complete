@@ -39,7 +39,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 8, CLEFFA
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -47,7 +47,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 8, CLEFFA
 	; nite
 	db 6, ZUBAT
 	db 8, GEODUDE
@@ -55,7 +55,7 @@ KantoGrassWildMons:
 	db 12, PARAS
 	db 10, GEODUDE
 	db 12, CLEFAIRY
-	db 12, CLEFAIRY
+	db 12, CLEFFA
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_1F
@@ -319,7 +319,7 @@ KantoGrassWildMons:
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
 	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, IGGLYBUFF
 	; day
 	db 13, RATTATA
 	db 13, SNUBBULL
@@ -327,7 +327,7 @@ KantoGrassWildMons:
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
 	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, IGGLYBUFF
 	; nite
 	db 13, MEOWTH
 	db 13, DROWZEE
@@ -335,7 +335,7 @@ KantoGrassWildMons:
 	db 15, PSYDUCK
 	db 12, JIGGLYPUFF
 	db 15, RATICATE
-	db 15, RATICATE
+	db 15, IGGLYBUFF
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_7
@@ -431,7 +431,7 @@ KantoGrassWildMons:
 	db 45, FEAROW
 	db 45, MAROWAK
 	db 46, ELECTABUZZ
-	db 46, ELECTABUZZ
+	db 16, ELEKID
 	; day
 	db 35, SPEAROW
 	db 37, VOLTORB
@@ -439,7 +439,7 @@ KantoGrassWildMons:
 	db 45, FEAROW
 	db 45, MAROWAK
 	db 48, ELECTABUZZ
-	db 48, ELECTABUZZ
+	db 18, ELEKID
 	; nite
 	db 35, VENONAT
 	db 37, VOLTORB
@@ -447,7 +447,7 @@ KantoGrassWildMons:
 	db 45, VENOMOTH
 	db 35, ZUBAT
 	db 46, ELECTABUZZ
-	db 46, ELECTABUZZ
+	db 16, ELEKID
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_11
