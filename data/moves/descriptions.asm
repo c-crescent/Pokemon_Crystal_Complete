@@ -253,8 +253,8 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw XScissorDescription
+	dw BulletPunchDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
@@ -1274,3 +1274,7 @@ BeatUpDescription:
 XScissorDescription:
 	db   "An attack that"
 	next "slashes at foes.@"
+
+BulletPunchDescription:
+	db   "A punch as fast"
+	next "as a bullet.@"

@@ -769,6 +769,7 @@ TyrogueEggMoves:
 	db HI_JUMP_KICK
 	db MACH_PUNCH
 	db MIND_READER
+	db BULLET_PUNCH
 	db -1 ; end
 
 SmoochumEggMoves:

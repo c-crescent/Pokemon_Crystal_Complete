@@ -254,8 +254,8 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_XScissor
+	dw BattleAnim_BulletPunch
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -1970,6 +1970,7 @@ BattleAnim_Amnesia:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_BulletPunch:
 BattleAnim_DizzyPunch:
 	anim_2gfx BATTLE_ANIM_GFX_STATUS, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_MEGA_PUNCH

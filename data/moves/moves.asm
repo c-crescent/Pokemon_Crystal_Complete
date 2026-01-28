@@ -244,7 +244,7 @@ Moves:
 	move PURSUIT,      EFFECT_PURSUIT,            40, DARK,         100, 20,   0
 	move RAPID_SPIN,   EFFECT_RAPID_SPIN,         20, NORMAL,       100, 40,   0
 	move SWEET_SCENT,  EFFECT_EVASION_DOWN,        0, NORMAL,       100, 20,   0
-	move IRON_TAIL,    EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,         90, 15,  20
+	move IRON_TAIL,    EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,         85, 15,  20
 	move METAL_CLAW,   EFFECT_ATTACK_UP_HIT,      80, STEEL,        100, 25,  10
 	move VITAL_THROW,  EFFECT_ALWAYS_HIT,         80, FIGHTING,     100, 10,   0
 	move MORNING_SUN,  EFFECT_MORNING_SUN,         0, NORMAL,       100,  5,   0
@@ -266,4 +266,5 @@ Moves:
 	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,         70, 15,   0
 	move BEAT_UP,      EFFECT_BEAT_UP,            20, DARK,         100, 10,   0
 	move XSCISSOR,     EFFECT_NORMAL_HIT,         80, BUG,          100, 15,   0
+	move BULLET_PUNCH, EFFECT_PRIORITY_HIT,       40, STEEL,        100, 30,   0
 	assert_table_length NUM_ATTACKS

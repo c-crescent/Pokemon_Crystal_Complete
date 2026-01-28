@@ -970,6 +970,7 @@ MachopEvosAttacks:
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
+	db 40, BULLET_PUNCH
 	db 43, CROSS_CHOP
 	db 50, SCARY_FACE
 	db 55, SUBMISSION
@@ -985,6 +986,7 @@ MachokeEvosAttacks:
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
+	db 40, BULLET_PUNCH
 	db 43, CROSS_CHOP
 	db 50, SCARY_FACE
 	db 55, SUBMISSION
@@ -999,6 +1001,7 @@ MachampEvosAttacks:
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
+	db 40, BULLET_PUNCH
 	db 43, CROSS_CHOP
 	db 50, SCARY_FACE
 	db 55, SUBMISSION
@@ -1587,6 +1590,7 @@ HitmonleeEvosAttacks:
 	db 25, FORESIGHT
 	db 31, MIND_READER
 	db 36, HI_JUMP_KICK
+	db 40, BULLET_PUNCH
 	db 41, ENDURE
 	db 46, MEGA_KICK
 	db 51, REVERSAL
@@ -1603,6 +1607,7 @@ HitmonchanEvosAttacks:
 	db 26, FIRE_PUNCH
 	db 32, MEGA_PUNCH
 	db 38, DYNAMICPUNCH
+	db 40, BULLET_PUNCH
 	db 44, DETECT
 	db 50, COUNTER
 	db 0 ; no more level-up moves
@@ -1847,6 +1852,7 @@ ScytherEvosAttacks:
     db 18, FALSE_SWIPE
     db 24, AGILITY
     db 30, WING_ATTACK
+	db 32, BULLET_PUNCH
     db 36, SLASH
     db 42, XSCISSOR
     db 48, DOUBLE_TEAM
@@ -3535,6 +3541,7 @@ HitmontopEvosAttacks:
 	db 25, RAPID_SPIN
 	db 31, COUNTER
 	db 37, AGILITY
+	db 40, BULLET_PUNCH
 	db 43, DETECT
 	db 45, TRIPLE_KICK
 	db 0 ; no more level-up moves
