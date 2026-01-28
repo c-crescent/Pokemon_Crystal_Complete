@@ -278,7 +278,6 @@ Kurt1:
 	closetext
 	setevent EVENT_GAVE_GS_BALL_TO_KURT
 	takeitem GS_BALL
-	setflag ENGINE_KURT_MAKING_BALLS
 	end
 
 .GaveGSBallToKurt:
