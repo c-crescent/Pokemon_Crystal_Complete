@@ -1852,7 +1852,6 @@ ScytherEvosAttacks:
     db 18, FALSE_SWIPE
     db 24, AGILITY
     db 30, WING_ATTACK
-	db 32, BULLET_PUNCH
     db 36, SLASH
     db 42, XSCISSOR
     db 48, DOUBLE_TEAM
@@ -3185,7 +3184,8 @@ ScizorEvosAttacks:
 	db 16, CUT
     db 18, FALSE_SWIPE
     db 24, DOUBLE_TEAM
-    db 30, METAL_CLAW
+    db 30, METAL_CLAW	
+	db 32, BULLET_PUNCH
     db 36, SLASH
     db 42, XSCISSOR
     db 48, SWORDS_DANCE
