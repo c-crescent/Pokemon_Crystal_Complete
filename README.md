@@ -116,6 +116,7 @@ These videos also provide an overview of the hack and the ideology behind it:
     - [Show an icon for the current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
     - [Use unique colors for each thrown Poké Ball](https://github.com/pret/pokecrystal/wiki/Use-unique-colors-for-each-thrown-Pok%C3%A9-Ball)
     - [Level cap](https://github.com/pret/pokecrystal/wiki/Level-cap)
+    - [Short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP/_history)
 - Nayru62:
     - [Nayru's Pokedex](https://github.com/Nayru62/pokecrystal/tree/Nayrus-Pokedex-Vanilla-TypeGFX-BETA)
     - [Ultimate Pokemon stats pages](https://github.com/Nayru62/pokecrystal/tree/stats-pages-utilities-vanilla)
@@ -125,6 +126,7 @@ These videos also provide an overview of the hack and the ideology behind it:
     - [Allow more trainer parties, with individual DVs, stat experience, nicknames, variable teams, etc](https://github.com/pret/pokecrystal/wiki/Allow-more-trainer-parties,-with-individual-DVs,-stat-experience,-nicknames,-variable-teams,-etc)
     - [Color Pokémon pictures shown in overworld](https://github.com/pret/pokecrystal/wiki/Color-Pok%C3%A9mon-pictures-shown-in-overworld)
     - [Option to show shiny colors in Pokédex](https://github.com/pret/pokecrystal/wiki/Option-to-show-shiny-colors-in-Pok%C3%A9dex)
+    - [Modify existing gender formula](https://github.com/pret/pokecrystal/wiki/Modify-existing-gender-formula)
 - aaaaaa123456789 - [Remove the artificial save delay](https://github.com/pret/pokecrystal/wiki/Remove-the-artificial-save-delay)
 - SonicRay100 - [Simplify the Clock Reset Procedure](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
 - Etdv-thevoid - [Add a third trainer card page for Kanto badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
