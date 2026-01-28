@@ -491,37 +491,31 @@ KarenGroup:
 	db -1 ; end
 
 ; KAREN (2) Rematch
-	db "KAREN@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db "KAREN@", TRAINERTYPE_DVS | TRAINERTYPE_ITEM_MOVES
 		db 68, UMBREON
 			db $fc, $dd
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
-			db MIRACLEBERRY
-            db GROWTH, SHADOW_BALL, HIDDEN_POWER, BATON_PASS
+			db LEFTOVERS
+            db TOXIC, PURSUIT, FAINT_ATTACK, MOONLIGHT
         db 67, GENGAR
 			db $dc, $dd
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
-			db SCOPE_LENS
+			db MIRACLEBERRY
             db SHADOW_BALL, PSYCHIC_M, GIGA_DRAIN, DESTINY_BOND
-        db 68, PERSIAN
+        db 68, VILEPLUME
 			db $dc, $dd
-			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
-			db SCOPE_LENS
-            db SLASH, CUT, IRON_TAIL, HYPNOSIS
+			db LEFTOVERS
+            db SLEEP_POWDER, SLUDGE_BOMB, GIGA_DRAIN, SYNTHESIS
         db 68, MURKROW
 			db $dc, $dd
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db SHARP_BEAK
             db SKY_ATTACK, PURSUIT, SWAGGER, PSYCH_UP
         db 67, BLISSEY
 			db $dc, $dd
-			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db LEFTOVERS
-            db PSYCHIC_M, SOFTBOILED, ATTRACT, ZAP_CANNON
+            db HEAL_BELL, ICE_BEAM, THUNDERBOLT, SOFTBOILED
         db 69, HOUNDOOM
 			db $fc, $dd
-			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
 			db CHARCOAL
-            db FLAMETHROWER, CRUNCH, IRON_TAIL, HIDDEN_POWER
+            db FLAMETHROWER, CRUNCH, IRON_TAIL, TOXIC
 	db -1 ; end
 
 KogaGroup:
