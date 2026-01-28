@@ -225,6 +225,7 @@ BeedrillEvosAttacks:
 	db 12, FOCUS_ENERGY
 	db 15, TWINEEDLE
 	db 18, PURSUIT
+	db 24, XSCISSOR
 	db 30, SWORDS_DANCE
 	db 40, AGILITY
 	db 0 ; no more level-up moves
@@ -400,6 +401,7 @@ SandshrewEvosAttacks:
 	db 30, CUT
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
+	db 42, XSCISSOR
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
@@ -416,6 +418,7 @@ SandslashEvosAttacks:
 	db 30, CUT
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
+	db 42, XSCISSOR
 	db 48, SPIKE_CANNON
 	db 0 ; no more level-up moves
 
@@ -616,6 +619,7 @@ GolbatEvosAttacks:
 	db 19, CONFUSE_RAY
 	db 22, WING_ATTACK
 	db 27, SLUDGE
+	db 32, XSCISSOR
 	db 36, SLUDGE_BOMB
 	db 42, MEAN_LOOK
 	db 48, HAZE
@@ -676,6 +680,7 @@ ParasEvosAttacks:
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
 	db 24, SPORE
+	db 28, XSCISSOR
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
@@ -690,6 +695,7 @@ ParasectEvosAttacks:
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
 	db 24, SPORE
+	db 28, XSCISSOR
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
@@ -1453,6 +1459,7 @@ KrabbyEvosAttacks:
 	db 27, GUILLOTINE
 	db 29, METAL_CLAW
 	db 37, PROTECT
+	db 48, XSCISSOR
 	db 51, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1467,6 +1474,7 @@ KinglerEvosAttacks:
 	db 28, METAL_CLAW
 	db 37, PROTECT
 	db 44, GUILLOTINE
+	db 48, XSCISSOR
 	db 51, CRABHAMMER
 	db 0 ; no more level-up moves
 
@@ -1840,7 +1848,7 @@ ScytherEvosAttacks:
     db 24, AGILITY
     db 30, WING_ATTACK
     db 36, SLASH
-    db 42, TWINEEDLE
+    db 42, XSCISSOR
     db 48, DOUBLE_TEAM
     db 54, SWORDS_DANCE
     db 0 ; no more level-up moves
@@ -1898,7 +1906,7 @@ PinsirEvosAttacks:
     db 7, FOCUS_ENERGY
     db 13, BIND
     db 19, SEISMIC_TOSS
-    db 25, TWINEEDLE
+    db 25, XSCISSOR
     db 27, HARDEN
     db 31, GUILLOTINE
     db 37, SUBMISSION
@@ -2115,6 +2123,7 @@ KabutopsEvosAttacks:
 	db 40, SLASH
 	db 43, SWORDS_DANCE
 	db 46, ROCK_SLIDE
+	db 52, XSCISSOR
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
@@ -2514,7 +2523,7 @@ SpinarakEvosAttacks:
 	db 9, LEECH_LIFE
 	db 12, CONSTRICT
 	db 17, NIGHT_SHADE
-	db 21, TWINEEDLE
+	db 21, XSCISSOR
 	db 25, FURY_SWIPES
 	db 33, SPIDER_WEB
 	db 38, GIGA_DRAIN
@@ -2531,7 +2540,7 @@ AriadosEvosAttacks:
 	db 1, LEECH_LIFE
 	db 12, CONSTRICT
 	db 17, NIGHT_SHADE
-	db 21, TWINEEDLE
+	db 21, XSCISSOR
 	db 25, FURY_SWIPES
 	db 33, SPIDER_WEB
 	db 38, GIGA_DRAIN
@@ -2890,7 +2899,7 @@ YanmaEvosAttacks:
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
 	db 19, WING_ATTACK
-	db 25, TWINEEDLE
+	db 25, XSCISSOR
 	db 30, TWISTER
 	db 28, DETECT
 	db 31, SUPERSONIC
@@ -3094,6 +3103,7 @@ GligarEvosAttacks:
 	db 36, SLASH
 	db 38, EARTHQUAKE
 	db 44, SCREECH
+	db 48, XSCISSOR
 	db 52, GUILLOTINE
 	db 0 ; no more level-up moves
 
@@ -3171,7 +3181,7 @@ ScizorEvosAttacks:
     db 24, DOUBLE_TEAM
     db 30, METAL_CLAW
     db 36, SLASH
-    db 42, TWINEEDLE
+    db 42, XSCISSOR
     db 48, SWORDS_DANCE
     db 54, AGILITY
     db 0 ; no more level-up moves
@@ -3217,6 +3227,7 @@ SneaselEvosAttacks:
 	db 17, SCREECH
 	db 20, ICY_WIND
 	db 25, FAINT_ATTACK
+	db 28, XSCISSOR
 	db 33, ICE_PUNCH
 	db 38, METAL_CLAW
 	db 41, AGILITY
@@ -3388,6 +3399,7 @@ SkarmoryEvosAttacks:
 	db 31, STEEL_WING
 	db 37, FURY_ATTACK
 	db 41, DRILL_PECK
+	db 44, XSCISSOR
 	db 0 ; no more level-up moves
 
 	HoundourEvosAttacks:
@@ -3627,6 +3639,7 @@ EnteiEvosAttacks:
 	db 51, LIGHT_SCREEN
 	db 61, FIRE_BLAST
 	db 71, SWAGGER
+	db 85, SACRED_FIRE
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:

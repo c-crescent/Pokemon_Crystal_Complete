@@ -54,7 +54,7 @@ Moves:
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,       100, 15,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move POISON_STING, EFFECT_POISON_HIT,         30, POISON,       100, 35,  30
-	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   40, BUG,          100, 20,  20
+	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   45, BUG,          100, 20,  20
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          20, BUG,          100, 30,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,         100, 25,  30
@@ -265,4 +265,5 @@ Moves:
 	move ROCK_SMASH,   EFFECT_DEFENSE_DOWN_HIT,   60, FIGHTING,     100, 15,  20
 	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,         70, 15,   0
 	move BEAT_UP,      EFFECT_BEAT_UP,            20, DARK,         100, 10,   0
+	move XSCISSOR,     EFFECT_NORMAL_HIT,         80, BUG,          100, 15,   0
 	assert_table_length NUM_ATTACKS
