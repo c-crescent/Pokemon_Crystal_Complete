@@ -77,8 +77,6 @@ DEF KRIS EQU __trainer_class__
 	trainerclass CAL ; c
 	const CAL1 ; unused
 	const CAL2
-	const SMITH
-	const CRAIG
 
 	trainerclass BRUNO ; d
 	const BRUNO1
@@ -712,6 +710,6 @@ DEF KRIS EQU __trainer_class__
 	const ARCHER
 
 	trainerclass PKMNTRAINERF
-	const WEEBRA
+	const V
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
