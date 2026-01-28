@@ -19,6 +19,18 @@ CreditsScript:
 	db CREDITS_SCENE, 2 ; Ditto
 
 	db             CREATEDBY, 1
+	db       				V, 2
+
+	db CREDITS_WAIT, 12
+
+; Clear the banner.
+	db CREDITS_CLEAR
+
+	db CREDITS_WAIT, 1
+
+; Update the banner.
+
+	db             CREATEDBY, 1
 	db       SMITHPLAYSPOKEMON, 2
 
 	db CREDITS_WAIT, 12

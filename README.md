@@ -45,6 +45,9 @@ These videos also provide an overview of the hack and the ideology behind it:
 - [**Symbols**][symbols]
 - [**Tools**][tools]
 
+## Credits For Crystal Complete:
+- V / VivianDK - Developer
+
 ## Credits For Crystal Legacy:
 
 ### Creators:

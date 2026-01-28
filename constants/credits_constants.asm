@@ -105,6 +105,7 @@
 	const PAAD_TESTING
 	const CREATEDBY
 	const SMITHPLAYSPOKEMON
+	const V
 	const DEV
 	const THESMITHPLAYS
 	const CRZSHADOWS
