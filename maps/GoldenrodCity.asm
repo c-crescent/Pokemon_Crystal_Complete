@@ -33,7 +33,7 @@ GoldenrodCityFlypointAndFloriaCallback:
 
 GoldenrodCityMoveTutorCallback:
 	readvar VAR_BADGES
-	ifless 7, .MoveTutorDone
+	ifless 6, .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
 	sjump .MoveTutorAppear
@@ -43,8 +43,6 @@ GoldenrodCityMoveTutorCallback:
 	endcallback
 
 .MoveTutorAppear:
-	checkflag ENGINE_DAILY_MOVE_TUTOR
-	iftrue .MoveTutorDone
 	appear GOLDENRODCITY_MOVETUTOR
 .MoveTutorDone:
 	endcallback
@@ -59,7 +57,7 @@ MoveTutorScript:
 	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
 	yesorno
 	iffalse .Refused2
-	checkcoins 1000
+	checkcoins 500
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
@@ -138,7 +136,6 @@ MoveTutorScript:
 	playsound SFX_ENTER_DOOR
 	disappear GOLDENRODCITY_MOVETUTOR
 	clearevent EVENT_GOLDENROD_GAME_CORNER_MOVE_TUTOR
-	setflag ENGINE_DAILY_MOVE_TUTOR
 	waitsfx
 	end
 
@@ -498,7 +495,7 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
 	text "It will cost you"
-	line "1000 coins. Okay?"
+	line "500 coins. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
