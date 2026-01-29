@@ -403,7 +403,7 @@ JohtoGrassWildMons:
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
+	db 5, NATU
 	; day
 	db 5, UNOWN
 	db 5, UNOWN
@@ -411,7 +411,7 @@ JohtoGrassWildMons:
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
+	db 5, NATU
 	; nite
 	db 5, UNOWN
 	db 5, UNOWN
@@ -419,7 +419,7 @@ JohtoGrassWildMons:
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
+	db 5, NATU
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F
@@ -571,7 +571,7 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  METAPOD
-	db 9,  METAPOD
+	db 9,  PINSIR
 	; day
 	db 8,  CATERPIE
 	db 8,  WEEDLE
@@ -579,15 +579,15 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  KAKUNA
-	db 9,  KAKUNA
+	db 9,  PINSIR
 	; nite
 	db 12, ODDISH
 	db 12, VENONAT
 	db 12, PARAS
 	db 12, HOOTHOOT
 	db 13, ODDISH
-	db 13, PSYDUCK
-	db 13, PSYDUCK
+	db 13, PINSIR
+	db 13, PINSIR
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1130,24 +1130,24 @@ JohtoGrassWildMons:
 	db 68, GRAVELER
 	db 70, URSARING
 	db 20, LARVITAR
-	db 25, LARVITAR
-	db 40, PUPITAR
+	db 25, PUPITAR
+	db 40, EEVEE
 	; day
 	db 61, GOLBAT
 	db 68, ONIX
 	db 68, GRAVELER
 	db 70, URSARING
 	db 20, LARVITAR
-	db 25, LARVITAR
-	db 40, PUPITAR
+	db 25, PUPITAR
+	db 40, EEVEE
 	; nite
 	db 61, GOLBAT
 	db 68, ONIX
 	db 68, GRAVELER
 	db 69, GOLBAT
 	db 65, GOLDUCK
-	db 63, GOLBAT
-	db 63, GOLBAT
+	db 63, EEVEE
+	db 63, EEVEE
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS

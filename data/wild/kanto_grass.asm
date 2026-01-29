@@ -427,7 +427,7 @@ KantoGrassWildMons:
 	; morn
 	db 35, SPEAROW
 	db 37, VOLTORB
-	db 35, RATICATE
+	db 35, VOLTORB
 	db 45, FEAROW
 	db 45, MAROWAK
 	db 46, ELECTABUZZ
@@ -435,7 +435,7 @@ KantoGrassWildMons:
 	; day
 	db 35, SPEAROW
 	db 37, VOLTORB
-	db 35, RATICATE
+	db 35, VOLTORB
 	db 45, FEAROW
 	db 45, MAROWAK
 	db 48, ELECTABUZZ
@@ -443,7 +443,7 @@ KantoGrassWildMons:
 	; nite
 	db 35, VENONAT
 	db 37, VOLTORB
-	db 35, RATICATE
+	db 35, VOLTORB
 	db 45, VENOMOTH
 	db 35, ZUBAT
 	db 46, ELECTABUZZ
