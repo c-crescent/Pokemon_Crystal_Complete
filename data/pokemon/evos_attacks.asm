@@ -1150,6 +1150,7 @@ PonytaEvosAttacks:
 	db 33, FLAMETHROWER
 	db 36, TAKE_DOWN
 	db 39, FIRE_SPIN
+	db 42, HI_JUMP_KICK
 	db 45, AGILITY
 	db 51, FIRE_BLAST
 	db 0 ; no more level-up moves
@@ -1167,6 +1168,7 @@ RapidashEvosAttacks:
 	db 36, FLAMETHROWER
 	db 39, FIRE_SPIN
 	db 40, FURY_ATTACK
+	db 42, HI_JUMP_KICK
 	db 45, AGILITY
 	db 51, FIRE_BLAST
 	db 0 ; no more level-up moves
@@ -1255,6 +1257,7 @@ DoduoEvosAttacks:
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
 	db 27, RAGE
+	db 33, JUMP_KICK
 	db 38, DRILL_PECK
 	db 44, AGILITY
 	db 56, DOUBLE_EDGE
@@ -1270,6 +1273,7 @@ DodrioEvosAttacks:
 	db 13, FURY_ATTACK
 	db 21, RAGE
 	db 27, TRI_ATTACK
+	db 33, JUMP_KICK
 	db 38, DRILL_PECK
 	db 44, AGILITY
 	db 56, DOUBLE_EDGE
