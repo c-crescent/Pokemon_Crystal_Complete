@@ -1614,6 +1614,7 @@ HitmonchanEvosAttacks:
 	db 40, BULLET_PUNCH
 	db 44, DETECT
 	db 50, COUNTER
+	db 55, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:
@@ -3511,6 +3512,7 @@ StantlerEvosAttacks:
 	db 18, CONFUSE_RAY
 	db 23, PURSUIT
 	db 28, TAKE_DOWN
+	db 31, JUMP_KICK
 	db 33, REFLECT
 	db 37, LIGHT_SCREEN
 	db 40, DOUBLE_EDGE
@@ -3551,6 +3553,7 @@ HitmontopEvosAttacks:
 	db 40, BULLET_PUNCH
 	db 43, DETECT
 	db 45, TRIPLE_KICK
+	db 50, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:
