@@ -253,4 +253,5 @@ MoveNames::
 	li "BEAT UP"
 	li "X-SCISSOR"
 	li "BULLET PUNCH"
+	li "OMINOUS WIND"
 	assert_list_length NUM_ATTACKS

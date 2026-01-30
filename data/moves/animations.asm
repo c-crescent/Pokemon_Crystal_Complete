@@ -255,8 +255,8 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_XScissor
 	dw BattleAnim_BulletPunch
+	dw BattleAnim_OminousWind
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -4364,6 +4364,7 @@ BattleAnim_CrossChop:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_OminousWind:
 BattleAnim_Twister:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
 .loop1
