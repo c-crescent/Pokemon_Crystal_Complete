@@ -144,9 +144,9 @@ KantoWaterWildMons:
 
 	def_water_wildmons VERMILION_CITY
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 35, KRABBY
+	db 30, KRABBY
+	db 35, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY
@@ -165,9 +165,9 @@ KantoWaterWildMons:
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 35, HORSEA
+	db 30, SEADRA
+	db 35, SEADRA
 	end_water_wildmons
 
 	db -1 ; end
