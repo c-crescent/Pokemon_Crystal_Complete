@@ -240,8 +240,9 @@ MartMahogany2:
 	db -1 ; end
 
 MartBlackthorn:
-	db 10 ; # items
+	db 11 ; # items
 	db ULTRA_BALL
+	db DRAGON_SCALE
 	db HYPER_POTION
 	db MAX_REPEL
 	db FULL_HEAL
