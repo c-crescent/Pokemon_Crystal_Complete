@@ -823,7 +823,7 @@ KantoGrassWildMons:
 	db 42, ARBOK
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 43, EEVEE
 	; day
 	db 39, TANGELA
 	db 40, PONYTA
@@ -831,7 +831,7 @@ KantoGrassWildMons:
 	db 42, ARBOK
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 43, EEVEE
 	; nite
 	db 39, TANGELA
 	db 40, POLIWHIRL
@@ -839,7 +839,7 @@ KantoGrassWildMons:
 	db 40, POLIWHIRL
 	db 42, GOLBAT
 	db 42, GOLBAT
-	db 42, GOLBAT
+	db 42, EEVEE
 	end_grass_wildmons
 
 	db -1 ; end

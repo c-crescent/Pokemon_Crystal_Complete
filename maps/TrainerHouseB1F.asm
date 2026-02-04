@@ -196,10 +196,12 @@ TrainerHouseB1FCalBeforeText:
 	cont "could battle you."
 	done
 TrainerHouseB1FVBeforeText:
-	text "Are you ready?"
+	text "Who are you?"
 
-	para "Think fast,"
-	line "or else."
+	para "A challenge?"
+		
+	para "Then you better"
+	line "think fast."
 
 	done
 

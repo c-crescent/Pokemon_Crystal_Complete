@@ -259,6 +259,7 @@
 	const BEAT_UP      ; fb
 	const XSCISSOR	   ; fc
 	const BULLET_PUNCH ; fd
+	const OMINOUS_WIND  ; fe
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff

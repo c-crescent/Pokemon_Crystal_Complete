@@ -62,7 +62,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 20, GOLDEEN
 	db 25, MARILL
-	db 25, SEAKING
+	db 25, QWILFISH
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
@@ -265,7 +265,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 35, POLIWHIRL
 	db 40, POLIWHIRL
-	db 35, POLIWAG
+	db 35, CHINCHOU
 	end_water_wildmons
 
 	db -1 ; end

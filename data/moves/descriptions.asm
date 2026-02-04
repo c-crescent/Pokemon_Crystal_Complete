@@ -254,8 +254,8 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw XScissorDescription
 	dw BulletPunchDescription
+	dw OminousWindDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
@@ -1278,3 +1278,7 @@ XScissorDescription:
 BulletPunchDescription:
 	db   "A punch as fast"
 	next "as a bullet.@"
+
+OminousWindDescription:
+	db   "A gust that may"
+	next "raise all stats.@"
