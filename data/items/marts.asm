@@ -432,14 +432,23 @@ MartFuchsia:
 
 MartSaffron:
 	db 8 ; # items
-	db GREAT_BALL
-	db ULTRA_BALL
-	db HYPER_POTION
-	db MAX_POTION
-	db FULL_HEAL
-	db X_ATTACK
-	db X_DEFEND
-	db FLOWER_MAIL
+	db PINK_BOW
+	db BLACKBELT_I
+	db SHARP_BEAK
+	db POISON_BARB
+	db SOFT_SAND
+	db HARD_STONE
+	db SILVERPOWDER
+	db SPELL_TAG
+	db CHARCOAL
+	db MYSTIC_WATER
+	db MIRACLE_SEED
+	db MAGNET
+	db TWISTEDSPOON
+	db NEVERMELTICE
+	db DRAGON_SCALE
+	db BLACKGLASSES
+	db METAL_COAT
 	db -1 ; end
 
 MartMtMoon:
@@ -453,7 +462,7 @@ MartMtMoon:
 	db -1 ; end
 
 MartIndigoPlateau:
-	db 8 ; # items
+	db 9 ; # items
 	db ULTRA_BALL
 	db MAX_REPEL
 	db HYPER_POTION
@@ -461,6 +470,7 @@ MartIndigoPlateau:
 	db FULL_RESTORE
 	db REVIVE
 	db FULL_HEAL
+	db ELIXIR
 	db PP_UP
 	db -1 ; end
 
