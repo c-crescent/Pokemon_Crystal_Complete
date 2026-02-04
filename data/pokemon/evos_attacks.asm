@@ -2015,6 +2015,7 @@ VaporeonEvosAttacks:
 	db 42, ACID_ARMOR
 	db 47, HAZE
 	db 52, HYDRO_PUMP
+	db 55, GROWTH
 	db 0 ; no more level-up moves
 
 JolteonEvosAttacks:
@@ -2032,6 +2033,7 @@ JolteonEvosAttacks:
 	db 42, THUNDER_WAVE
 	db 47, AGILITY
 	db 52, THUNDER
+	db 55, GROWTH
 	db 0 ; no more level-up moves
 
 FlareonEvosAttacks:
@@ -2049,6 +2051,7 @@ FlareonEvosAttacks:
 	db 42, FIRE_SPIN
 	db 47, SMOG
 	db 52, FIRE_BLAST
+	db 55, GROWTH
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
@@ -3465,10 +3468,12 @@ PhanpyEvosAttacks:
 	db 14, MAGNITUDE
 	db 17, FLAIL
 	db 25, TAKE_DOWN
+	db 28, ROCK_THROW
 	db 33, ROLLOUT
 	db 36, ENDURE
 	db 40, EARTHQUAKE
 	db 48, DOUBLE_EDGE
+	db 52, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 DonphanEvosAttacks:
@@ -3480,10 +3485,12 @@ DonphanEvosAttacks:
 	db 14, MAGNITUDE
 	db 17, FLAIL
 	db 25, FURY_ATTACK
+	db 28, ROCK_THROW
 	db 33, ROLLOUT
 	db 36, RAPID_SPIN
 	db 40, EARTHQUAKE
 	db 48, DOUBLE_EDGE
+	db 52, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
