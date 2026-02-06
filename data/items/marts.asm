@@ -470,7 +470,7 @@ MartIndigoPlateau:
 	db FULL_RESTORE
 	db REVIVE
 	db FULL_HEAL
-	db ELIXIR
+	db MAX_ELIXER
 	db PP_UP
 	db -1 ; end
 
