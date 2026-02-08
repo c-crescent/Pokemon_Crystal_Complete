@@ -68,7 +68,6 @@ MoveTutorScript:
 	ifequal 3, .IceBeam
 	ifequal 4, .RockSlide
 	ifequal 5, .BodySlam
-	ifequal 6, .Substitute
 	sjump .Incompatible
 
 .Flamethrower:
@@ -101,13 +100,6 @@ MoveTutorScript:
 
 .BodySlam	
 	setval BODY_SLAM
-	writetext GoldenrodCityMoveTutorMoveText
-	special MoveTutor
-	ifequal FALSE, .TeachMove
-	sjump .Incompatible	
-
-.Substitute	
-	setval SUBSTITUTE
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
