@@ -1970,7 +1970,6 @@ BattleAnim_Amnesia:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_BulletPunch:
 BattleAnim_DizzyPunch:
 	anim_2gfx BATTLE_ANIM_GFX_STATUS, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_MEGA_PUNCH
@@ -3399,6 +3398,7 @@ BattleAnim_Protect:
 	anim_ret
 
 BattleAnim_MachPunch:
+BattleAnim_BulletPunch:
 	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
 	anim_sound 0, 0, SFX_MENU
