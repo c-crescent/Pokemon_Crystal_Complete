@@ -117,6 +117,8 @@ MoveTutorScript:
 	db "FLAMETHROWER@"
 	db "THUNDERBOLT@"
 	db "ICE BEAM@"
+	db "ROCK SLIDE@"
+	db "BODY SLAM@"
 	db "CANCEL@"
 
 .Refused:
