@@ -208,23 +208,21 @@ GetTreeScore:
 	ld [wTreeMonOTIDScore], a
 	ld c, a
 	ld a, [wTreeMonCoordScore]
-	; ld b,b
 	sub c
-	jr z, .rare
-	jr nc, .ok
+	jr nc, .positive
 	add 10
-.ok
-	cp 5
+.positive
+	; Now a = (CoordScore - OTIDScore) mod 10, 0–9
+	cp 3
+	jr c, .rare
+	cp 6
 	jr c, .good
-
-; bad
+	; else bad
 	xor a ; TREEMON_SCORE_BAD
 	ret
-
 .good
 	ld a, TREEMON_SCORE_GOOD
 	ret
-
 .rare
 	ld a, TREEMON_SCORE_RARE
 	ret
