@@ -3,7 +3,7 @@
 	const CELADONCITY_POLIWAG
 	const CELADONCITY_TEACHER1
 	const CELADONCITY_GRAMPS1
-	const CELADONCITY_GRAMPS2
+	const CELADONCITY_LASS2
 	const CELADONCITY_YOUNGSTER1
 	const CELADONCITY_YOUNGSTER2
 	const CELADONCITY_TEACHER2
@@ -36,8 +36,8 @@ CeladonCityTeacher1Script:
 CeladonCityGramps1Script:
 	jumptextfaceplayer CeladonCityGramps1Text
 
-CeladonCityGramps2Script:
-	jumptextfaceplayer CeladonCityGramps2Text
+CeladonCityLass2Script:
+	jumptextfaceplayer CeladonCityLass2Text
 
 CeladonCityYoungster1Script:
 	jumptextfaceplayer CeladonCityYoungster1Text
@@ -98,7 +98,7 @@ else
 	line "machines again…"
 
 	para "We girls also play"
-	line "the slots now."
+	line "the slots."
 
 	para "You should check"
 	line "them out too."
@@ -120,8 +120,8 @@ CeladonCityGramps1Text:
 	cont "a serious problem…"
 	done
 
-CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
+CeladonCityLass2Text:
+	text "Look! This GYM"
 	line "is great! Only"
 
 	para "girls are allowed"
@@ -275,7 +275,7 @@ CeladonCity_MapEvents:
 	object_event 27, 11, SPRITE_POLIWRATH, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityPoliwrath, -1
 	object_event 20, 24, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityTeacher1Script, -1
 	object_event 14, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps1Script, -1
-	object_event  8, 31, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps2Script, -1
+	object_event  8, 31, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityLass2Script, -1
 	object_event 18, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityYoungster1Script, -1
 	object_event 24, 33, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityYoungster2Script, -1
 	object_event  6, 14, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityTeacher2Script, -1
