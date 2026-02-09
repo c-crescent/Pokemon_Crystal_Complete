@@ -118,7 +118,7 @@ Moves:
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,       100, 10,   0
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        85, 40,   0
 	move DOUBLE_TEAM,  EFFECT_EVASION_UP,          0, NORMAL,       100, 15,   0
-	move RECOVER,      EFFECT_HEAL,                0, NORMAL,       100,  5,   0
+	move RECOVER,      EFFECT_HEAL,                0, NORMAL,       100, 15,   0
 	move HARDEN,       EFFECT_DEFENSE_UP,          0, NORMAL,       100, 30,   0
 	move MINIMIZE,     EFFECT_EVASION_UP,          0, NORMAL,       100, 20,   0
 	move SMOKESCREEN,  EFFECT_ACCURACY_DOWN,       0, NORMAL,       100, 20,   0
@@ -247,9 +247,9 @@ Moves:
 	move IRON_TAIL,    EFFECT_DEFENSE_DOWN_HIT,  110, STEEL,         85, 15,  20
 	move METAL_CLAW,   EFFECT_ATTACK_UP_HIT,      80, STEEL,        100, 25,  10
 	move VITAL_THROW,  EFFECT_ALWAYS_HIT,         80, FIGHTING,     100, 10,   0
-	move MORNING_SUN,  EFFECT_MORNING_SUN,         0, NORMAL,       100,  5,   0
-	move SYNTHESIS,    EFFECT_SYNTHESIS,           0, GRASS,        100,  5,   0
-	move MOONLIGHT,    EFFECT_MOONLIGHT,           0, NORMAL,       100,  5,   0
+	move MORNING_SUN,  EFFECT_MORNING_SUN,         0, NORMAL,       100, 15,   0
+	move SYNTHESIS,    EFFECT_SYNTHESIS,           0, GRASS,        100, 15,   0
+	move MOONLIGHT,    EFFECT_MOONLIGHT,           0, NORMAL,       100, 15,   0
 	move HIDDEN_POWER, EFFECT_HIDDEN_POWER,       70, NORMAL,       100, 15,   0
 	move CROSS_CHOP,   EFFECT_NORMAL_HIT,        110, FIGHTING,      85, 10,   0
 	move TWISTER,      EFFECT_TWISTER,            70, DRAGON,       100, 20,  20
