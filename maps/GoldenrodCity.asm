@@ -136,25 +136,11 @@ MoveTutorScript:
 .TeachMove:
 	writetext GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText
 	promptbutton
-	takecoins 1000
+	takecoins 500
 	waitsfx
 	playsound SFX_TRANSACTION
 	special DisplayCoinCaseBalance
-	writetext GoldenrodCityMoveTutorFarewellKidText
-	waitbutton
 	closetext
-	readvar VAR_FACING
-	ifequal LEFT, .WalkAroundPlayer
-	applymovement GOLDENRODCITY_MOVETUTOR, GoldenrodCityMoveTutorEnterGameCornerMovement
-	sjump .GoInside
-
-.WalkAroundPlayer:
-	applymovement GOLDENRODCITY_MOVETUTOR, GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement
-.GoInside:
-	playsound SFX_ENTER_DOOR
-	disappear GOLDENRODCITY_MOVETUTOR
-	clearevent EVENT_GOLDENROD_GAME_CORNER_MOVE_TUTOR
-	waitsfx
 	end
 
 .Incompatible:
