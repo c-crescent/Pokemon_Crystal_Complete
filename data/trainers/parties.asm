@@ -3932,6 +3932,12 @@ ArcherGroup:
 PKMNTrainerFGroup:
 	; V2
 	db "V@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+		db 100, MEW
+				db "@ZERO@"
+				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db LEFTOVERS
+				db SWORDS_DANCE, SUBMISSION, SOFTBOILED, ROCK_SLIDE
 		db 100, ARTICUNO	
 				db "@ONE@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
@@ -3961,11 +3967,5 @@ PKMNTrainerFGroup:
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
-				db CURSE, BODY_SLAM, REST, EARTHQUAKE
-		db 100, MEW
-				db "@SIX@"
-				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
-				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
-				db LEFTOVERS
-				db SWORDS_DANCE, SUBMISSION, SOFTBOILED, ROCK_SLIDE
+				db CURSE, BODY_SLAM, REST, EARTHQUAKE		
 	db -1 ; end
