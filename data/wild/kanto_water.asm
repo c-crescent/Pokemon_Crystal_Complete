@@ -165,9 +165,9 @@ KantoWaterWildMons:
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, HORSEA
-	db 30, SEADRA
-	db 35, SEADRA
+	db 30, HORSEA
+	db 35, KABUTO
+	db 35, OMANYTE
 	end_water_wildmons
 
 	db -1 ; end
