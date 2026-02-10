@@ -13,28 +13,13 @@ TrainerHouseB1FNoopScene:
 
 TrainerHouseReceptionistScript:
 	turnobject PLAYER, UP
-.GetDayForSprite: ; make sure overworld sprite is correct for trainer
 	variablesprite SPRITE_TRAINER_HOUSE_PKMN_TRAINER, SPRITE_KRIS
-	sjump .GotSprite
-
-.GotSprite:
 	opentext
 	checkflag ENGINE_FOUGHT_IN_TRAINER_HALL_TODAY
 	iftrue .FoughtTooManyTimes
 	writetext TrainerHouseB1FIntroText
 	promptbutton
-	special TrainerHouse
-	iffalse .GetCal3Name
-	gettrainername STRING_BUFFER_3, CAL, CAL2
-	sjump .GotName
-
-.GetCal3Name:
-	.VnAME
-.VName
-	gettrainername STRING_BUFFER_3, PKMNTRAINERF, V ; V
-	sjump .GotName
-
-.GotName:
+	gettrainername STRING_BUFFER_3, PKMNTRAINERF, V
 	writetext TrainerHouseB1FYourOpponentIsText
 	promptbutton
 	writetext TrainerHouseB1FAskWantToBattleText
@@ -45,23 +30,6 @@ TrainerHouseReceptionistScript:
 	waitbutton
 	closetext
 	applymovement PLAYER, Movement_EnterTrainerHouseBattleRoom
-	special TrainerHouse
-	iffalse .NoSpecialBattle
-	opentext
-	writetext TrainerHouseB1FCalBeforeText
-	waitbutton
-	closetext
-	winlosstext TrainerHouseB1FCalBeatenText, 0
-	setlasttalked TRAINERHOUSEB1F_CHRIS
-	loadtrainer CAL, CAL2
-	checkflag ENGINE_HARD_MODE
-	iffalse .normalmode_CAL2
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SETNOITEMS
-.normalmode_CAL2
-	startbattle
-	reloadmapafterbattle
-	iffalse .End
-.NoSpecialBattle:
 	opentext
 	writetext TrainerHouseB1FVBeforeText
 	waitbutton
@@ -136,15 +104,15 @@ TrainerHouseB1FIntroText:
 	text "Hi. Welcome to our"
 	line "TRAINING HALL."
 
-	para "You may battle a"
-	line "trainer once per"
-	cont "day."
+	para "You may challenge"
+	line "the world champion"
+	cont "once per day."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
-	text " is your"
-	line "opponent today."
+	text " is your opponent."
+	
 	done
 
 TrainerHouseB1FAskWantToBattleText:
@@ -178,27 +146,16 @@ TrainerHouseB1FSecondChallengeDeniedText:
 	para "to enter just once"
 	line "a day."
 	done
-
-TrainerHouseB1FCalBeatenText:
-	text "I lost…"
-	line "Darn…"
-	done
 TrainerHouseB1FVBeatenText:
 	text "Impressive."
 
 	para "Come again,"
 	line "another day."
 	done
-
-TrainerHouseB1FCalBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
-	done
 TrainerHouseB1FVBeforeText:
 	text "Who are you?"
 
-	para "A challenge?"
+	para "A challenger?"
 		
 	para "Then you better"
 	line "think fast."
@@ -218,4 +175,4 @@ TrainerHouseB1F_MapEvents:
 
 	def_object_events
 	object_event  7,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
-	object_event  6, 11, SPRITE_TRAINER_HOUSE_PKMN_TRAINER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+	object_event  6, 11, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
