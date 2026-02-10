@@ -85,11 +85,6 @@ VermilionPortWalkUpToShipScript:
 	turnobject PLAYER, LEFT
 	opentext
 	readvar VAR_WEEKDAY
-	ifequal MONDAY, .NextShipWednesday
-	ifequal TUESDAY, .NextShipWednesday
-	ifequal THURSDAY, .NextShipSunday
-	ifequal FRIDAY, .NextShipSunday
-	ifequal SATURDAY, .NextShipSunday
 	writetext VermilionPortAskBoardingText
 	yesorno
 	iffalse VermilionPortNotRidingMoveAwayScript
@@ -106,20 +101,6 @@ VermilionPortWalkUpToShipScript:
 
 .NoTicket:
 	writetext VermilionPortNoTicketText
-	waitbutton
-	closetext
-	applymovement PLAYER, VermilionPortCannotEnterFastShipMovement
-	end
-
-.NextShipWednesday:
-	writetext VermilionPortSailWednesdayText
-	waitbutton
-	closetext
-	applymovement PLAYER, VermilionPortCannotEnterFastShipMovement
-	end
-
-.NextShipSunday:
-	writetext VermilionPortSailSundayText
 	waitbutton
 	closetext
 	applymovement PLAYER, VermilionPortCannotEnterFastShipMovement
