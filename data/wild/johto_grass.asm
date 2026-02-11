@@ -682,24 +682,24 @@ JohtoGrassWildMons:
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUIL
-	db 22, CYNDAQUIL
+	db 5, CYNDAQUIL
+	db 5, CYNDAQUIL
 	; day
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MACHOP
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUIL
-	db 22, CYNDAQUIL
+	db 5, CYNDAQUIL
+	db 5, CYNDAQUIL
 	; nite
 	db 20, GEODUDE
 	db 20, ZUBAT
 	db 21, MARILL
 	db 22, GOLBAT
 	db 21, RHYHORN
-	db 22, CYNDAQUIL
-	db 22, CYNDAQUIL
+	db 5, CYNDAQUIL
+	db 5, CYNDAQUIL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
@@ -1634,24 +1634,24 @@ JohtoGrassWildMons:
 	db 31, GLIGAR
 	db 35, DONPHAN
 	db 35, URSARING
-	db 37, CHIKORITA
-	db 37, CHIKORITA
+	db 5, CHIKORITA
+	db 5, CHIKORITA
 	; day
 	db 35, DONPHAN
 	db 34, GRAVELER
 	db 31, GLIGAR
 	db 35, DONPHAN
 	db 35, URSARING
-	db 35, CHIKORITA
-	db 35, CHIKORITA
+	db 5, CHIKORITA
+	db 5, CHIKORITA
 	; nite
 	db 35, GRAVELER
 	db 34, GRAVELER
 	db 31, GLIGAR
 	db 35, MURKROW
 	db 35, GOLBAT
-	db 35, CHIKORITA
-	db 35, CHIKORITA
+	db 5, CHIKORITA
+	db 5, CHIKORITA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46
