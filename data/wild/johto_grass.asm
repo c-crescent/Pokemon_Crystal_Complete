@@ -1214,7 +1214,7 @@ JohtoGrassWildMons:
 	db 35, GRAVELER
 	db 35, URSARING
 	db 30, TEDDIURSA
-	db 33, GOLBAT
+	db 33, DUNSPARCE
 	db 33, PUPITAR
 	; day
 	db 33, GEODUDE
@@ -1222,7 +1222,7 @@ JohtoGrassWildMons:
 	db 35, GRAVELER
 	db 35, URSARING
 	db 30, URSARING
-	db 33, GOLBAT
+	db 33, DUNSPARCE
 	db 33, PUPITAR
 	; nite
 	db 33, GEODUDE
@@ -1230,7 +1230,7 @@ JohtoGrassWildMons:
 	db 35, GRAVELER
 	db 30, WOBBUFFET
 	db 35, WOBBUFFET
-	db 33, GOLBAT
+	db 33, DUNSPARCE
 	db 33, PUPITAR
 	end_grass_wildmons
 
