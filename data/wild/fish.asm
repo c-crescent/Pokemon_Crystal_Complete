@@ -91,13 +91,13 @@ FishGroups:
 .Dratini_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     MAGIKARP,   20
-	db  90 percent + 1, MAGIKARP,   20
+	db  90 percent + 1, DRAGONAIR,   20
 	db 100 percent,     time_group 8
 .Dratini_Super:
-	db  40 percent,     MAGIKARP,   40
-	db  70 percent,     time_group 9
-	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     DRAGONAIR,  40
+	db  40 percent,     DRAGONAIR,   40
+	db  80 percent,     time_group 9
+	db  90 percent + 1, KABUTO,   40
+	db 100 percent,     OMANYTE,  40
 
 .Qwilfish_Swarm_Old:
 	db  70 percent + 1, MAGIKARP,   5

@@ -11,7 +11,7 @@ KantoGrassWildMons:
 	db 24, DIGLETT
 	db 24, DUGTRIO
 	db 24, DUGTRIO
-	db 24, DUGTRIO
+	db 24, SNORLAX
 	; day
 	db 2, DIGLETT
 	db 4, DIGLETT
@@ -19,14 +19,14 @@ KantoGrassWildMons:
 	db 16, DIGLETT
 	db 16, DUGTRIO
 	db 16, DUGTRIO
-	db 16, DUGTRIO
+	db 16, SNORLAX
 	; nite
 	db 4, DIGLETT
 	db 8, DIGLETT
 	db 16, DIGLETT
-	db 32, DIGLETT
 	db 32, DUGTRIO
 	db 32, DUGTRIO
+	db 32, SNORLAX
 	db 32, SNORLAX
 	end_grass_wildmons
 
@@ -838,7 +838,7 @@ KantoGrassWildMons:
 	db 40, GOLBAT
 	db 40, POLIWHIRL
 	db 42, GOLBAT
-	db 42, GOLBAT
+	db 42, EEVEE
 	db 42, EEVEE
 	end_grass_wildmons
 

@@ -1155,26 +1155,26 @@ JohtoGrassWildMons:
 	; morn
 	db 68, GOLBAT
 	db 66, GOLBAT
-	db 60, GOLBAT
+	db 60, PARASECT
 	db 66, PARASECT
 	db 68, PARASECT
-	db 60, PARASECT
+	db 60, AERODACTYL
 	db 62, AERODACTYL
 	; day
 	db 68, GOLBAT
 	db 66, GOLBAT
-	db 70, GOLBAT
+	db 70, PARASECT
 	db 66, PARASECT
 	db 68, PARASECT
-	db 60, PARASECT
+	db 60, AERODACTYL
 	db 62, AERODACTYL
 	; nite
 	db 65, MISDREAVUS
 	db 68, GOLBAT
-	db 60, GOLBAT
+	db 60, PARASECT
 	db 66, PARASECT
 	db 68, PARASECT
-	db 60, PARASECT
+	db 60, AERODACTYL
 	db 62, AERODACTYL
 	end_grass_wildmons
 
