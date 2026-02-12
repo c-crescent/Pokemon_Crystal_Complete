@@ -36,8 +36,18 @@ TrainerHouseReceptionistScript:
 	closetext
 	winlosstext TrainerHouseB1FVBeatenText, 0
 	setlasttalked TRAINERHOUSEB1F_CHRIS
-	loadtrainer PKMNTRAINERF, V ; v
+	random 3
+	ifequal 0, .VTeam1
+	ifequal 1, .VTeam2
+.VTeam3	
+	loadtrainer PKMNTRAINERF, 3 ; v
 	sjump .DoneBattle
+.VTeam2	
+	loadtrainer PKMNTRAINERF, 2 ; v
+	sjump .DoneBattle
+.VTeam1	
+	loadtrainer PKMNTRAINERF, 1 ; v
+	sjump .DoneBattle	
 .DoneBattle
 	checkflag ENGINE_HARD_MODE
 	iffalse .normalmode ; V
@@ -105,8 +115,8 @@ TrainerHouseB1FIntroText:
 	line "TRAINING HALL."
 
 	para "You may challenge"
-	line "the world champion"
-	cont "once per day."
+	line "one world champion"
+	cont "team per day."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
