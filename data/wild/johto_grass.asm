@@ -319,7 +319,7 @@ JohtoGrassWildMons:
 	db 16, MISDREAVUS
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 8, MAGBY
+	db 8,  MAGBY
 	; day
 	db 18, ZUBAT
 	db 17, KOFFING
@@ -327,7 +327,7 @@ JohtoGrassWildMons:
 	db 16, MAGMAR
 	db 16, MISDREAVUS
 	db 18, MISDREAVUS
-	db 7, MAGBY
+	db 7,  MAGBY
 	; nite
 	db 18, MISDREAVUS
 	db 17, ZUBAT
@@ -335,7 +335,7 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 8, MAGBY
+	db 8,  MAGBY
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
@@ -347,7 +347,7 @@ JohtoGrassWildMons:
 	db 10, WEEDLE
 	db 10, CATERPIE
 	db 16, SCYTHER
-	db 16, SCYTHER
+	db 16, SUDOWOODO
 	; day
 	db 15, NIDORAN_F
 	db 14, NIDORAN_M
@@ -355,7 +355,7 @@ JohtoGrassWildMons:
 	db 13, SUNKERN
 	db 10, CATERPIE
 	db 16, SCYTHER
-	db 16, SCYTHER
+	db 16, SUDOWOODO
 	; nite
 	db 13, PSYDUCK
 	db 17, MURKROW
@@ -653,24 +653,24 @@ JohtoGrassWildMons:
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RATICATE
-	db 28, MACHOP
-	db 30, GOLBAT
+	db 28, GOLBAT
+	db 30, TYROGUE
 	db 30, TYROGUE
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RATICATE
-	db 28, MACHOP
-	db 30, GOLBAT
+	db 28, GOLBAT
+	db 30, TYROGUE
 	db 30, TYROGUE
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
 	db 30, RATICATE
 	db 30, GOLBAT
-	db 28, MARILL
-	db 32, GOLBAT
+	db 28, GOLBAT
+	db 32, TYROGUE
 	db 32, TYROGUE
 	end_grass_wildmons
 
@@ -710,7 +710,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 23, SWINUB
 	db 24, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	db 22, SMOOCHUM
 	; day
 	db 21, SWINUB
@@ -718,7 +718,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 23, SWINUB
 	db 24, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	db 22, SMOOCHUM
 	; nite
 	db 21, DELIBIRD
@@ -726,7 +726,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 23, DELIBIRD
 	db 24, GOLBAT
-	db 22, GOLBAT
+	db 22, SMOOCHUM
 	db 22, SMOOCHUM
 	end_grass_wildmons
 
@@ -1354,7 +1354,7 @@ JohtoGrassWildMons:
 	db 8, RATTATA
 	db 9, MACHOP
 	db 8, EKANS
-	db 8, MACHOP
+	db 8, TOGEPI
 	db 8, TOGEPI
 	; day
 	db 9, EKANS
@@ -1362,7 +1362,7 @@ JohtoGrassWildMons:
 	db 8, RATTATA
 	db 9, MACHOP
 	db 8, EKANS
-	db 8, MACHOP
+	db 8, TOGEPI
 	db 8, TOGEPI
 	; nite
 	db 9, ZUBAT

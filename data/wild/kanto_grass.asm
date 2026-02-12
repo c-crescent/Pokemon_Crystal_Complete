@@ -486,7 +486,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
-	db 27, HOPPIP
+	db 27, CHANSEY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
@@ -494,7 +494,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
-	db 27, HOPPIP
+	db 27, CHANSEY
 	db 25, CHANSEY
 	; nite
 	db 23, VENONAT
@@ -670,8 +670,8 @@ KantoGrassWildMons:
 	db 35, TANGELA
 	db 20, RATICATE
 	db 30, TANGELA
-	db 28, TANGELA
-	db 28, TANGELA
+	db 28, MAGBY
+	db 28, MAGBY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_22
