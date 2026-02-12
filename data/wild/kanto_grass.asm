@@ -766,7 +766,7 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
+	db 5,  BULBASAUR
 	db 5,  BULBASAUR
 	; day
 	db 38, DODRIO
@@ -774,7 +774,7 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
+	db 5,  BULBASAUR
 	db 5,  CHARMANDER
 	; nite
 	db 38, MURKROW
@@ -782,8 +782,8 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
-	db 5,  SQUIRTLE
+	db 5,  CHARMANDER
+	db 5,  CHARMANDER
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
