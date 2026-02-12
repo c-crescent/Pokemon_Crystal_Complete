@@ -30,7 +30,7 @@ TreeMonSet_Canyon:
 	db 15, SPEAROW,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 15, HERACROSS,  10
 	db -1
 ; rare
 	db 50, SPEAROW,    10
@@ -48,7 +48,7 @@ TreeMonSet_Town:
 	db 15, SPEAROW,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 15, HERACROSS,  10
 	db -1
 ; rare
 	db 50, SPEAROW,    10
