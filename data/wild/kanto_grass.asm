@@ -486,7 +486,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
-	db 27, HOPPIP
+	db 27, CHANSEY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
@@ -494,7 +494,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
-	db 27, HOPPIP
+	db 27, CHANSEY
 	db 25, CHANSEY
 	; nite
 	db 23, VENONAT
@@ -670,8 +670,8 @@ KantoGrassWildMons:
 	db 35, TANGELA
 	db 20, RATICATE
 	db 30, TANGELA
-	db 28, TANGELA
-	db 28, TANGELA
+	db 28, MAGBY
+	db 28, MAGBY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_22
@@ -766,7 +766,7 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
+	db 5,  BULBASAUR
 	db 5,  BULBASAUR
 	; day
 	db 38, DODRIO
@@ -774,7 +774,7 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
+	db 5,  BULBASAUR
 	db 5,  CHARMANDER
 	; nite
 	db 38, MURKROW
@@ -782,8 +782,8 @@ KantoGrassWildMons:
 	db 39, PONYTA
 	db 42, RAPIDASH
 	db 42, DODRIO
-	db 42, DODRIO
-	db 5,  SQUIRTLE
+	db 5,  CHARMANDER
+	db 5,  CHARMANDER
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
