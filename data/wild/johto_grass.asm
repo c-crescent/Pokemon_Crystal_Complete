@@ -653,25 +653,25 @@ JohtoGrassWildMons:
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RATICATE
-	db 28, GOLBAT
+	db 28, TYROGUE
 	db 30, TYROGUE
-	db 30, TYROGUE
+	db 30, HITMONLEE
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RATICATE
-	db 28, GOLBAT
+	db 28, TYROGUE
 	db 30, TYROGUE
-	db 30, TYROGUE
+	db 30, HITMONCHAN
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
 	db 30, RATICATE
 	db 30, GOLBAT
-	db 28, GOLBAT
+	db 28, TYROGUE
 	db 32, TYROGUE
-	db 32, TYROGUE
+	db 32, HITMONTOP
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_B1F
