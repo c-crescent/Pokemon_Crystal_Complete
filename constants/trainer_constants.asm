@@ -710,8 +710,6 @@ DEF KRIS EQU __trainer_class__
 	const ARCHER
 
 	trainerclass PKMNTRAINERF
-	const V1
-	const V2
-	const V3
+	const V
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

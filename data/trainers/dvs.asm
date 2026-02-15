@@ -71,6 +71,6 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; MYSTICALMAN
 	dn 12, 12, 12, 12 ; BOSS
 	dn 11, 11, 11, 11 ; ARCHER
-	dn 13, 12, 13, 13 ; PKMNTRAINERF
+	dn 15, 15, 15, 15 ; PKMNTRAINERF
 
 	assert_table_length NUM_TRAINER_CLASSES
