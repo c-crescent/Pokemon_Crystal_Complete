@@ -11,8 +11,6 @@ FightingDojo_MapScripts:
 FightingDojoCallBack:
 	readvar VAR_BADGES
 	ifless 16, .NormalDojo
-	checkevent EVENT_RED_IN_MT_SILVER
-	iftrue .NormalDojo
 	appear FIGHTINGDOJO_BOSS
 	endcallback
 
@@ -43,7 +41,7 @@ BossScript:
 .normalmode_BOSS
 	startbattle
 	disappear FIGHTINGDOJO_BOSS
-	setevent EVENT_RED_IN_MT_SILVER
+	setevent EVENT_DEFEATED_BOSS
 	reloadmapafterbattle
 	end
 FightingDojoSign1Text:
@@ -98,4 +96,4 @@ FightingDojo_MapEvents:
 
 	def_object_events
 	object_event  3,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FightingDojoFocusBand, EVENT_PICKED_UP_FOCUS_BAND
-	object_event  5,  3, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BossScript, EVENT_RED_IN_MT_SILVER
+	object_event  5,  3, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BossScript, EVENT_DEFEATED_BOSS
