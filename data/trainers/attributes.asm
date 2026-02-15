@@ -76,25 +76,25 @@ TrainerClassAttributes:
 
 ; Bruno
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 50 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Karen
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 50 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Koga
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 50 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Champion
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 75 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
@@ -376,13 +376,13 @@ TrainerClassAttributes:
 
 ; Red
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 50 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Blue
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 50 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
@@ -418,7 +418,7 @@ TrainerClassAttributes:
 
 ; PkmnTrainerF
 	db NO_ITEM, NO_ITEM ; items
-	db 25 ; base reward
+	db 100 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 	
