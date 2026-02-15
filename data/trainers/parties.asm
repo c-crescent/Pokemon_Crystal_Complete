@@ -3969,67 +3969,80 @@ PKMNTrainerFGroup:
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db CURSE, BODY_SLAM, REST, EARTHQUAKE		
-
+	db -1
 	; V2
-	db "V@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db "V@", TRAINERTYPE_NICKNAME| TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 		db 100, CLOYSTER
+				db "@ICEBOMB@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db SPIKES, SURF, ICE_BEAM, EXPLOSION
 		db 100, MEW	
+				db "@PSYBOMB@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db SWORDS_DANCE, EARTHQUAKE, ROCK_SLIDE, EXPLOSION
 		db 100, GENGAR
+				db "@HNTBOMB@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db SHADOW_BALL, ICE_PUNCH, THUNDERBOLT, EXPLOSION
 		db 100, EXEGGUTOR
+				db "@EGGBOMB@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db SLEEP_POWDER, EXPLOSION, GIGA_DRAIN, PSYCHIC_M
 		db 100, MEWTWO
+				db "@JANITOR@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db FLAMETHROWER, ICE_BEAM, RECOVER, THUNDERBOLT
 		db 100, SNORLAX
+				db "@THKBOMB@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db EXPLOSION, BODY_SLAM, REST, EARTHQUAKE	
+	db -1
 	; V3
-	db "V@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db "V@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 		db 100, ENTEI
+				db "@FIREBAD@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db SUNNY_DAY, FIRE_BLAST, SOLARBEAM, BODY_SLAM
-		db 100, LUGIA	
+		db 100, LUGIA
+				db "@FLYBAD@"	
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db CURSE, AEROBLAST, EARTHQUAKE, RECOVER
 		db 100, CELEBI
+				db "@GRSBAD@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db HEAL_BELL, RECOVER, PSYCHIC_M, LEECH_SEED
 		db 100, RAIKOU
+				db "@ELCBAD@"
 				db $fd, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db THUNDERBOLT, ROAR, REST, HIDDEN_POWER
 		db 100, HO_OH
+				db "@FIREBAD2@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
 				db FLAMETHROWER, TOXIC, RECOVER, EARTHQUAKE
 		db 100, SUICUNE
+				db "@WTRBAD@"
 				db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
