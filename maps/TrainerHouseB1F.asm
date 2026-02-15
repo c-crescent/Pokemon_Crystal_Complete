@@ -19,7 +19,7 @@ TrainerHouseReceptionistScript:
 	iftrue .FoughtTooManyTimes
 	writetext TrainerHouseB1FIntroText
 	promptbutton
-	gettrainername STRING_BUFFER_3, PKMNTRAINERF, V
+	gettrainername STRING_BUFFER_3, PKMNTRAINERF, V1
 	writetext TrainerHouseB1FYourOpponentIsText
 	promptbutton
 	writetext TrainerHouseB1FAskWantToBattleText
@@ -40,13 +40,13 @@ TrainerHouseReceptionistScript:
 	ifequal 0, .VTeam1
 	ifequal 1, .VTeam2
 .VTeam3	
-	loadtrainer PKMNTRAINERF, 3 ; v
+	loadtrainer PKMNTRAINERF, V3 ; v
 	sjump .DoneBattle
 .VTeam2	
-	loadtrainer PKMNTRAINERF, 2 ; v
+	loadtrainer PKMNTRAINERF, V2 ; v
 	sjump .DoneBattle
 .VTeam1	
-	loadtrainer PKMNTRAINERF, 1 ; v
+	loadtrainer PKMNTRAINERF, V1 ; v
 	sjump .DoneBattle	
 .DoneBattle
 	checkflag ENGINE_HARD_MODE

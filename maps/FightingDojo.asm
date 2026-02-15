@@ -1,14 +1,24 @@
 	object_const_def
-	const FIGHTINGDOJO_BLACK_BELT
 	const FIGHTINGDOJO_POKE_BALL
+	const FIGHTINGDOJO_BOSS
 
 FightingDojo_MapScripts:
 	def_scene_scripts
-
+	
 	def_callbacks
+	callback MAPCALLBACK_OBJECTS, FightingDojoCallBack
 
-FightingDojoBlackBelt:
-	jumptextfaceplayer FightingDojoBlackBeltText
+FightingDojoCallBack:
+	readvar VAR_BADGES
+	ifless 16, .NormalDojo
+	checkevent EVENT_RED_IN_MT_SILVER
+	iftrue .NormalDojo
+	appear FIGHTINGDOJO_BOSS
+	endcallback
+
+.NormalDojo
+	disappear FIGHTINGDOJO_BOSS
+	endcallback
 
 FightingDojoSign1:
 	jumptext FightingDojoSign1Text
@@ -19,17 +29,23 @@ FightingDojoSign2:
 FightingDojoFocusBand:
 	itemball FOCUS_BAND
 
-FightingDojoBlackBeltText:
-	text "Hello!"
-
-	para "KARATE KING, the"
-	line "FIGHTING DOJO's"
-
-	para "master, is in a"
-	line "cave in JOHTO for"
-	cont "training."
-	done
-
+BossScript:
+	faceplayer
+	opentext
+	writetext BossBeforeText
+	waitbutton
+	closetext
+	winlosstext BossDefeatText, 0
+	loadtrainer BOSS, GIOVANNI
+	checkflag ENGINE_HARD_MODE
+	iffalse .normalmode_BOSS
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SETNOITEMS
+.normalmode_BOSS
+	startbattle
+	disappear FIGHTINGDOJO_BOSS
+	setevent EVENT_RED_IN_MT_SILVER
+	reloadmapafterbattle
+	end
 FightingDojoSign1Text:
 	text "What goes around"
 	line "comes around!"
@@ -39,6 +55,33 @@ FightingDojoSign2Text:
 	text "Enemies on every"
 	line "side!"
 	done
+
+BossBeforeText:
+	text "What a surprise"
+	line "to see you here."
+
+	para "I see you have"
+	line "overcome even"
+	cont "the KANTO league."
+
+	para "I must admit"
+	line "to miss that"
+	cont "competitive drive."
+
+	para "How about a"
+	line "friendly match?"
+	done
+
+BossDefeatText:
+	text "That was good."
+
+	para "Thank you for"
+	line "the chance to"
+	cont "finally stretch."
+
+	para "I wish you"
+	line "good luck."
+	done	
 
 FightingDojo_MapEvents:
 	db 0, 0 ; filler
@@ -54,5 +97,5 @@ FightingDojo_MapEvents:
 	bg_event  5,  0, BGEVENT_READ, FightingDojoSign2
 
 	def_object_events
-	object_event  4,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FightingDojoBlackBelt, -1
 	object_event  3,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FightingDojoFocusBand, EVENT_PICKED_UP_FOCUS_BAND
+	object_event  5,  3, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BossScript, EVENT_RED_IN_MT_SILVER
