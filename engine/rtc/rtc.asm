@@ -47,7 +47,7 @@ GetTimeOfDay::
 
 TimesOfDay:
 ; hours for the time of day
-; 0400-0959 morn | 1000-1759 day | 1800-0359 nite
+; 0400-1159 morn | 1200-1959 day | 2000-0359 nite
 	db MORN_HOUR, NITE_F
 	db DAY_HOUR,  MORN_F
 	db NITE_HOUR, DAY_F
