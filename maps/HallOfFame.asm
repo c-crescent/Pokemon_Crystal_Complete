@@ -125,15 +125,6 @@ HallOfFame_Rematch_LanceText:
     line "the CHAMPION of"
     cont "JOHTO."
 
-    para "And now, here we"
-    line "are again,"
-	
-	para "in this sacred"
-    line "place where we"
-    cont "honor the very "
-    cont "best trainers"
-	cont "and their #MON."
-
     para "Today, you've"
     line "proven yourself"
 	cont "not just in JOHTO,"
@@ -143,34 +134,6 @@ HallOfFame_Rematch_LanceText:
 	
 	para "besting even my"
     line "strongest team."
-
-    para "You've shown"
-    line "remarkable"
-	cont "compassion and"
-    cont "trust in your"
-    cont "#MON,"
-	
-	para "a bond that"
-    line "has carried you to"
-    cont "victory time and"
-    cont "again."
-
-    para "Your journey,"
-    line "marked by"
-	cont "perseverance and"
-    cont "unwavering"
-	cont "determination,"
-
-    para "speaks to your"
-    line "true spirit as a"
-	cont "trainer."
-
-    para "You have all the"
-    line "makings of a true"
-    cont "great,"
-	
-	para "perhaps even"
-    line "the greatest."
 
     para "<PLAY_G>,"
 	line "it is my honor"

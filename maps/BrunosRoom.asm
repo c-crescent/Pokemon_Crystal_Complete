@@ -109,18 +109,6 @@ BrunoScript_BrunoRematchBeforeText:
 	line "back, young"
     cont "warrior."
 
-    para "Through rigorous"
-    line "training, we have"
-    cont "grown stronger."
-
-    para "My rock-hard will"
-    line "is even more firm"
-    cont "and unyielding."
-
-    para "Are you prepared"
-    line "to face an even"
-    cont "greater challenge?"
-
     para "Show me the"
     line "results of your"
 	cont "training."

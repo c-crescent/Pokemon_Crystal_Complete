@@ -111,17 +111,6 @@ KogaScript_KogaRematchBeforeText:
     para "You return, brave"
     line "challenger."
 
-	para "My ninja skills"
-    line "have sharpened."
-
-    para "New sinister traps"
-    line "await you."
-
-    para "Poison, sleep, and"
-    line "more... Be ready!"
-
-    para "Fwahahahaha!"
-
     para "Show me how"
     line "you've grown!"
     done
@@ -169,10 +158,6 @@ KogaScript_KogaDefeatText:
 	para "But my efforts"
 	line "failed. I must"
 	cont "hone my skills."
-
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
 	done
 
 KogasRoom_MapEvents:

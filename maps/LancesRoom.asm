@@ -277,11 +277,7 @@ LanceRematchBattleIntroText:
 	line "Welcome back!"
 
     para "You've proven"
-    line "yourself in JOHTO,"
-	
-	para "acquiring all 8"
-    line "badges and even"
-    cont "besting me once."
+    line "yourself in JOHTO."
 
     para "But now, you're"
     line "in the big"
@@ -289,30 +285,12 @@ LanceRematchBattleIntroText:
 
 	para "The KANTO LEAGUE!"
 	
-	para "A region with its"
-    line "own trials and"
-    cont "champions."
-	
 	para "Here, I am the"
     line "final challenge,"
 
     para "with a team "
     line "stronger than ever"
 	cont "before."
-
-    para "This is the true"
-    line "test,"
-	
-	para "a battle to"
-    line "determine the"
-    cont "CHAMPION of KANTO."
-
-    para "Are you ready to"
-    line "rise to this new"
-    cont "challenge?" 
-	
-	para "To prove yourself"
-    line "once more?"
 
     para "Show me the"
     line "strength that"
@@ -438,10 +416,6 @@ LancesRoomRematchOakCongratulationsText:
     cont "ELM sent you on"
 	cont "your way."
 
-    para "You've certainly"
-    line "become more"
-	cont "impressive."
-
     para "Conquering both"
     line "the JOHTO and now"
     cont "the KANTO LEAGUE"
@@ -449,20 +423,6 @@ LancesRoomRematchOakCongratulationsText:
 	
 	para "You've truly"
     line "outdone yourself!"
-
-    para "It's clear that"
-    line "your #MON trust"
-    cont "you immensely,"
-	
-	para "and that trust has"
-    line "been the"
-    cont "foundation of your"
-	cont "success."
-
-    para "But remember, a"
-    line "trainer's journey"
-    cont "is never truly"
-	cont "over."
 
     para "When you have a"
     line "moment, do visit"

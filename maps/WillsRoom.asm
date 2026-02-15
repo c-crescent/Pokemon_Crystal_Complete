@@ -111,18 +111,6 @@ WillScript_WillRematchBeforeText:
     para "I have foreseen"
     line "this encounter."
 
-    para "My psychic #MON"
-    line "and I have"
-	cont "evolved,"
-
-    para "developing new"
-	line "tactics."
-
-    para "Prepare yourself"
-    line "for a battle of"
-    cont "enhanced strategy"
-	cont "and might."
-
     para "Let us see if"
     line "your foresight"
     cont "matches mine."
@@ -162,18 +150,6 @@ WillScript_WillDefeatText:
 	text "Even though I was"
 	line "defeated, I won't"
 	cont "change my course."
-
-	para "I will continue"
-	line "battling until I"
-
-	para "stand above all"
-	line "trainers!"
-
-	para "Now, <PLAYER>, move"
-	line "on and experience"
-
-	para "the true ferocity"
-	line "of the ELITE FOUR."
 	done
 
 WillsRoom_MapEvents:

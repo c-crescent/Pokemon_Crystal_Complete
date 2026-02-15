@@ -106,18 +106,6 @@ KarenScript_KarenRematchBeforeText:
     line "arises from trust"
     cont "in one's #MON."
 
-    para "Since our last"
-    line "encounter, my"
-
-	para "bond with my"
-	line "#MON has"
-    cont "deepened further."
-
-    para "Are you ready"
-    line "to face a team"
-    cont "united by an"
-    cont "unbreakable bond?"
-
     para "Show me the power"
     line "of the bond with"
     cont "your #MON."
@@ -160,19 +148,6 @@ KarenScript_KarenDefeatText:
 	para "That is only the"
 	line "selfish perception"
 	cont "of people."
-
-	para "Truly skilled"
-	line "trainers should"
-
-	para "try to win with"
-	line "their favorites."
-
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
-
-	para "Go on--the CHAM-"
-	line "PION is waiting."
 	done
 
 KarensRoom_MapEvents:
