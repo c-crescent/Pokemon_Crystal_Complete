@@ -431,7 +431,7 @@ MartFuchsia:
 	db -1 ; end
 
 MartSaffron:
-	db 8 ; # items
+	db 17 ; # items
 	db PINK_BOW
 	db BLACKBELT_I
 	db SHARP_BEAK
