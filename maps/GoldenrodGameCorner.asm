@@ -1,9 +1,9 @@
 DEF GOLDENRODGAMECORNER_TM25_COINS      EQU 2500
 DEF GOLDENRODGAMECORNER_TM14_COINS      EQU 2500
 DEF GOLDENRODGAMECORNER_TM38_COINS      EQU 2500
-DEF GOLDENRODGAMECORNER_ABRA_COINS      EQU 100
-DEF GOLDENRODGAMECORNER_CUBONE_COINS    EQU 800
-DEF GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 1500
+DEF GOLDENRODGAMECORNER_ABRA_COINS      EQU 1111
+DEF GOLDENRODGAMECORNER_PORYGON_COINS   EQU 2222
+DEF GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 3333
 
 EXPORT GOLDENRODGAMECORNER_ABRA_COINS
 EXPORT GOLDENRODGAMECORNER_CUBONE_COINS
@@ -185,7 +185,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	verticalmenu
 	closewindow
 	ifequal 1, .Abra
-	ifequal 2, .Cubone
+	ifequal 2, .Porygon
 	ifequal 3, .Wobbuffet
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
@@ -207,8 +207,8 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
-.Cubone:
-	checkcoins GOLDENRODGAMECORNER_CUBONE_COINS
+.Porygon:
+	checkcoins GOLDENRODGAMECORNER_PORYGON_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
@@ -230,16 +230,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, DRATINI
+	getmonname STRING_BUFFER_3, WOBBUFFET
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval DRATINI
+	setval WOBBUFFET
 	special GameCornerPrizeMonCheckDex
-	givepoke DRATINI, 15
+	givepoke WOBBUFFET, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
@@ -254,7 +254,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db 4 ; items
 	db "ABRA       100@"
 	db "PORYGON    800@"
-	db "DRATINI    1500@"
+	db "WOBBUFFET  1500@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
