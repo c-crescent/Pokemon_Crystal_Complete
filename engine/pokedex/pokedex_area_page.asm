@@ -627,25 +627,25 @@ Add_encounter_percent_grass:
 	ret
 .body:
 	ld a, c
-	ld b, 30
+	ld b, 20
 	and a
 	ret z
-	ld b, 30
+	ld b, 20
 	cp 1
 	ret z
 	ld b, 20
 	cp 2
 	ret z
-	ld b, 10
+	ld b, 15
 	cp 3
 	ret z
-	ld b, 5
+	ld b, 15
 	cp 4
 	ret z
-	ld b, 4
+	ld b, 5
 	cp 5
 	ret z
-	ld b, 1
+	ld b, 5
 	ret
 
 ;;;;;;;;;;;;;;;;;;;;;;; SURF ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -880,7 +880,7 @@ Add_encounter_percent_water:
 	ld a, c
 	and a
 	jr nz, .slot2
-	ld a, 60
+	ld a, 50
 	jr .done
 .slot2
 	cp 1
@@ -888,7 +888,7 @@ Add_encounter_percent_water:
 	ld a, 30
 	jr .done
 .slot3
-	ld a, 10
+	ld a, 20
 .done
 	; whatever value is currently in a will added to b
 	ret
