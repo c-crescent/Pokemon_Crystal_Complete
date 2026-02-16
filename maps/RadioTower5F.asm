@@ -66,6 +66,13 @@ Director:
 
 .TrueDirector:
 	writetext RadioTower5FDirectorText
+	special PlaceMoneyTopRight
+	yesorno
+	iffalse .Continue
+	givemoney YOUR_MONEY, 50000
+	special PlaceMoneyTopRight
+	writetext RadioTower5FDirectorText_AcceptedMoney
+.Continue	
 	waitbutton
 	closetext
 	end
@@ -779,6 +786,18 @@ RadioTower5FDirectorText:
 	para "It would be nice"
 	line "if people enjoyed"
 	cont "our programs."
+
+	para "Do you need help"
+	line "spreading the"
+	cont "great message?"
+	done
+
+RadioTower5FDirectorText_AcceptedMoney:	
+	text "Here you go."
+
+	para "If you need more,"
+	line "don't hesitate"
+	cont "to ask."
 	done
 
 BenText:
