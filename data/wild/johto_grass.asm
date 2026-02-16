@@ -1098,7 +1098,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 68, GOLBAT
-	db 68, MACHOKE
+	db 68, MACHAMP
 	db 67, URSARING
 	db 66, PARASECT
 	db 68, PARASECT
@@ -1106,7 +1106,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	; day
 	db 68, GOLBAT
-	db 68, MACHOKE
+	db 68, MACHAMP
 	db 67, URSARING
 	db 66, PARASECT
 	db 68, PARASECT
