@@ -151,7 +151,15 @@ LabTryToLeaveScript:
 	turnobject ELMSLAB_ELM, DOWN
 	opentext
 	writetext LabWhereGoingText
-	waitbutton
+	yesorno
+	iffalse .Continue
+	checkevent EVENT_ALT_STARTERS
+	iftrue .ResetStarters
+	setevent EVENT_ALT_STARTERS
+	sjump .Continue
+.ResetStarters
+	clearevent EVENT_ALT_STARTERS		
+.Continue	
 	closetext
 	applymovement PLAYER, ElmsLab_CantLeaveMovement
 	end
@@ -161,12 +169,23 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
+	checkevent EVENT_ALT_STARTERS
+	iftrue .Magby
 	pokepic CYNDAQUIL
 	cry CYNDAQUIL
 	waitbutton
 	closepokepic
 	opentext
 	writetext TakeCyndaquilText
+	sjump .AskPlayer
+.Magby
+	pokepic MAGBY
+	cry MAGBY
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeMagbyText		
+.AskPlayer	
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL1
@@ -174,12 +193,24 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GetMagbyName
 	getmonname STRING_BUFFER_3, CYNDAQUIL
+	sjump .GiveMon
+.GetMagbyName
+	getmonname STRING_BUFFER_3, MAGBY
+.GiveMon	
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GiveMagby
 	givepoke CYNDAQUIL, 5, BERRY
+	sjump .Finish
+.GiveMagby	
+	givepoke MAGBY, 5, BERRY
+.Finish	
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -191,12 +222,23 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
+	checkevent EVENT_ALT_STARTERS
+	iftrue .Elekid
 	pokepic TOTODILE
 	cry TOTODILE
 	waitbutton
 	closepokepic
 	opentext
 	writetext TakeTotodileText
+	sjump .AskPlayer
+.Elekid
+	pokepic ELEKID
+	cry ELEKID
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeElekidText		
+.AskPlayer	
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL2
@@ -204,12 +246,24 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GetElekidName
 	getmonname STRING_BUFFER_3, TOTODILE
+	sjump .GiveMon
+.GetElekidName
+	getmonname STRING_BUFFER_3, ELEKID
+.GiveMon		
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GiveElekid
 	givepoke TOTODILE, 5, BERRY
+	sjump .Done
+.GiveElekid	
+	givepoke ELEKID, 5, BERRY
+.Done	
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
@@ -219,12 +273,24 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
+
+	checkevent EVENT_ALT_STARTERS
+	iftrue .Smoochum
 	pokepic CHIKORITA
 	cry CHIKORITA
 	waitbutton
 	closepokepic
 	opentext
 	writetext TakeChikoritaText
+	sjump .AskPlayer
+.Smoochum
+	pokepic SMOOCHUM
+	cry SMOOCHUM
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeSmoochumText
+.AskPlayer		
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL3
@@ -232,12 +298,24 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GetSmoochumName
 	getmonname STRING_BUFFER_3, CHIKORITA
+	sjump .GiveMon
+.GetSmoochumName	
+	getmonname STRING_BUFFER_3, SMOOCHUM
+.GiveMon
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
+	checkevent EVENT_ALT_STARTERS
+	iftrue .GiveSmoochum
 	givepoke CHIKORITA, 5, BERRY
+	sjump .Done
+.GiveSmoochum
+	givepoke SMOOCHUM, 5, BERRY	
+.Done	
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
@@ -848,6 +926,16 @@ ElmText_LetYourMonBattleIt:
 LabWhereGoingText:
 	text "ELM: Wait! Where"
 	line "are you going?"
+
+	para "Tell you what."
+
+	para "If you'd like,"
+	line "I can offer"
+	cont "some different"
+	cont "#MON?"
+
+	para "Would that do?"
+
 	done
 
 TakeCyndaquilText:
@@ -856,17 +944,35 @@ TakeCyndaquilText:
 	cont "fire #MON?"
 	done
 
+TakeMagbyText:
+	text "ELM: You'll take"
+	line "MAGBY, the"
+	cont "fire #MON?"
+	done	
+
 TakeTotodileText:
 	text "ELM: Do you want"
 	line "TOTODILE, the"
 	cont "water #MON?"
 	done
 
+TakeElekidText:
+	text "ELM: Do you want"
+	line "ELEKID, the"
+	cont "electric #MON?"
+	done	
+
 TakeChikoritaText:
 	text "ELM: So, you like"
 	line "CHIKORITA, the"
 	cont "grass #MON?"
 	done
+
+TakeSmoochumText:
+	text "ELM: So, you like"
+	line "SMOOCHUM, the"
+	cont "ice #MON?"
+	done	
 
 DidntChooseStarterText:
 	text "ELM: Think it over"
